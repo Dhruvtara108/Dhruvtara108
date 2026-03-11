@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=B80000,1a1a1a&height=200&section=header&text=DHRUV%20MISHRA&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20Systems%20Builder%20%7C%20Robotics%20Researcher&descAlignY=58&descSize=18&descColor=ff6b6b&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFD700,1a1a1a&height=220&section=header&text=DHRUV&fontSize=90&fontColor=FFD700&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20Systems%20Builder%20%7C%20Robotics%20Researcher&descAlignY=60&descSize=18&descColor=ffffff&animation=twinkling&fontAlign=50" />
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=FF0000&center=true&vCenter=true&width=700&lines=🤖+AI+Systems+Engineer;⚙️+Backend+%26+Full-Stack+Developer;🦾+Robotics+Researcher+%40+KIIT;🚀+Building+Scalable+Intelligent+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=800&size=20&pause=1000&color=FFD700&center=true&vCenter=true&width=750&lines=🤖+AI+Systems+%26+Robotics+Researcher;⚙️+Backend+%26+Full-Stack+Engineer;🔬+Passionate+Researcher+%40+KIIT;🚀+Building+Intelligent+Autonomous+Systems;🧠+Agentic+AI+%7C+Embedded+Systems+%7C+R%26D)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- PROFILE VIEWS + SOCIALS -->
-![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=B80000&style=for-the-badge&label=PROFILE+VIEWS)
-[![GitHub followers](https://img.shields.io/github/followers/Dhruvtara108?label=FOLLOWERS&style=for-the-badge&color=B80000&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-B80000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://linkedin.com/in/dhruv)
+<!-- BADGES -->
+![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS&labelColor=1a1a1a)
+[![LinkedIn](https://img.shields.io/badge/5K%2B_FOLLOWERS-LinkedIn-FFD700?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=1a1a1a)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
 
 </div>
 
@@ -19,38 +19,67 @@
 
 <div align="center">
 
-## ◈ ABOUT ME ◈
+## ✦ ABOUT ME ✦
 
 </div>
 
 ```python
-class DhruvMishra:
+class Dhruv:
     def __init__(self):
-        self.name        = "Dhruv Mishra"
-        self.role        = "Software Engineer & AI Systems Builder"
-        self.university  = "KIIT University, B.Tech CSE (2023–Present)"
+        self.name        = "Dhruv"
+        self.role        = "Software Engineer & AI/Robotics Researcher"
+        self.university  = "KIIT University — B.Tech CSE (2023–Present)"
         self.location    = "Bhubaneswar, India 🇮🇳"
         self.email       = "mishradhruv257@gmail.com"
+        self.linkedin    = "linkedin.com/in/dhruv-01352a279"
+        self.github      = "github.com/Dhruvtara108"
+
+    @property
+    def research_interests(self):
+        return [
+            "🔬  Autonomous Robotics & Embedded Systems",
+            "🧠  Agentic AI & Intelligent Automation",
+            "⚡  AI-Driven Backend Architectures",
+            "🛸  Human-Robot Interaction & Sensor Systems",
+        ]
 
     @property
     def currently(self):
         return [
-            "🧠  Building AI evaluation & agentic pipelines",
-            "⚙️  Designing scalable backends & REST APIs",
-            "🤖  Researching autonomous robotics systems",
-            "🚀  Exploring AI startups & developer tools",
+            "📡  Researching AI automation & agentic workflows",
+            "🤖  Prototyping autonomous robotics systems",
+            "🚀  Building scalable AI-powered platforms",
+            "📝  Exploring AI startups & developer tooling",
         ]
-
-    @property
-    def ask_me_about(self):
-        return ["AI Systems", "Backend Engineering", "Robotics", "Full-Stack Dev"]
 ```
 
 ---
 
 <div align="center">
 
-## ◈ TECH ARSENAL ◈
+## ✦ RESEARCH TIMELINE ✦
+
+</div>
+
+```
+ 2024 ──────────────────────────────────────────────────────── 2025+
+
+ [Sep'24]            [May'25]        [Jul'25]      [May'25–Now]
+    │                   │               │                │
+ 🦾 KSRC            ⚡ ASME KIIT    🏭 TATA STEEL    🤖 UiPath
+ Robotics R&D       EV & Robotics   Backend Eng.    AI Research
+ Autonomous         Design & CAD    ASP.NET+SQL     Agentic AI
+ Robot Protos       R&D Prototypes  Cloud Pipelines  Automation
+    │                   │               │                │
+ ~70% Task          ~20% Faster     ~25% Faster      30%+ Process
+ Automation         Prototyping     Data Access      Efficiency
+```
+
+---
+
+<div align="center">
+
+## ✦ TECH ARSENAL ✦
 
 </div>
 
@@ -59,28 +88,30 @@ class DhruvMishra:
 <td align="center" width="200">
 
 ### 💻 Languages
-![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=ff4444)
-![C++](https://img.shields.io/badge/C++-1a1a1a?style=for-the-badge&logo=cplusplus&logoColor=ff4444)
-![C](https://img.shields.io/badge/C-1a1a1a?style=for-the-badge&logo=c&logoColor=ff4444)
-![JavaScript](https://img.shields.io/badge/JavaScript-1a1a1a?style=for-the-badge&logo=javascript&logoColor=ff4444)
+![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=FFD700)
+![C++](https://img.shields.io/badge/C++-1a1a1a?style=for-the-badge&logo=cplusplus&logoColor=FFD700)
+![C](https://img.shields.io/badge/C-1a1a1a?style=for-the-badge&logo=c&logoColor=FFD700)
+![JavaScript](https://img.shields.io/badge/JavaScript-1a1a1a?style=for-the-badge&logo=javascript&logoColor=FFD700)
+![C#](https://img.shields.io/badge/C%23-1a1a1a?style=for-the-badge&logo=csharp&logoColor=FFD700)
+![MATLAB](https://img.shields.io/badge/MATLAB-1a1a1a?style=for-the-badge&logo=mathworks&logoColor=FFD700)
 
 </td>
 <td align="center" width="200">
 
 ### ⚙️ Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=ff4444)
-![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=for-the-badge&logo=node.js&logoColor=ff4444)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-1a1a1a?style=for-the-badge&logo=dotnet&logoColor=ff4444)
-![REST APIs](https://img.shields.io/badge/REST_APIs-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=ff4444)
+![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=FFD700)
+![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=for-the-badge&logo=node.js&logoColor=FFD700)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-1a1a1a?style=for-the-badge&logo=dotnet&logoColor=FFD700)
+![REST APIs](https://img.shields.io/badge/REST_APIs-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=FFD700)
 
 </td>
 <td align="center" width="200">
 
 ### 🌐 Frontend
-![React](https://img.shields.io/badge/React-1a1a1a?style=for-the-badge&logo=react&logoColor=ff4444)
-![HTML5](https://img.shields.io/badge/HTML5-1a1a1a?style=for-the-badge&logo=html5&logoColor=ff4444)
-![CSS3](https://img.shields.io/badge/CSS3-1a1a1a?style=for-the-badge&logo=css3&logoColor=ff4444)
-![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-1a1a1a?style=for-the-badge&logo=shadcnui&logoColor=ff4444)
+![React](https://img.shields.io/badge/React_19-1a1a1a?style=for-the-badge&logo=react&logoColor=FFD700)
+![HTML5](https://img.shields.io/badge/HTML5-1a1a1a?style=for-the-badge&logo=html5&logoColor=FFD700)
+![CSS3](https://img.shields.io/badge/CSS3-1a1a1a?style=for-the-badge&logo=css3&logoColor=FFD700)
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-1a1a1a?style=for-the-badge&logo=shadcnui&logoColor=FFD700)
 
 </td>
 </tr>
@@ -88,27 +119,27 @@ class DhruvMishra:
 <td align="center" width="200">
 
 ### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-1a1a1a?style=for-the-badge&logo=mongodb&logoColor=ff4444)
-![MySQL](https://img.shields.io/badge/SQL_Server-1a1a1a?style=for-the-badge&logo=microsoftsqlserver&logoColor=ff4444)
-![BigQuery](https://img.shields.io/badge/BigQuery-1a1a1a?style=for-the-badge&logo=googlebigquery&logoColor=ff4444)
+![MongoDB](https://img.shields.io/badge/MongoDB-1a1a1a?style=for-the-badge&logo=mongodb&logoColor=FFD700)
+![SQL Server](https://img.shields.io/badge/SQL_Server-1a1a1a?style=for-the-badge&logo=microsoftsqlserver&logoColor=FFD700)
+![BigQuery](https://img.shields.io/badge/BigQuery-1a1a1a?style=for-the-badge&logo=googlebigquery&logoColor=FFD700)
 
 </td>
 <td align="center" width="200">
 
 ### ☁️ Cloud & Tools
-![GCP](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=googlecloud&logoColor=ff4444)
-![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=ff4444)
-![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=ff4444)
-![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=for-the-badge&logo=linux&logoColor=ff4444)
+![GCP](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=googlecloud&logoColor=FFD700)
+![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=FFD700)
+![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=FFD700)
+![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=for-the-badge&logo=linux&logoColor=FFD700)
 
 </td>
 <td align="center" width="200">
 
 ### 🤖 AI & Robotics
-![ML](https://img.shields.io/badge/ML_Systems-1a1a1a?style=for-the-badge&logo=tensorflow&logoColor=ff4444)
-![UiPath](https://img.shields.io/badge/UiPath-1a1a1a?style=for-the-badge&logo=uipath&logoColor=ff4444)
-![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino&logoColor=ff4444)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi&logoColor=ff4444)
+![UiPath](https://img.shields.io/badge/UiPath-1a1a1a?style=for-the-badge&logo=uipath&logoColor=FFD700)
+![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino&logoColor=FFD700)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi&logoColor=FFD700)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-1a1a1a?style=for-the-badge&logo=autodesk&logoColor=FFD700)
 
 </td>
 </tr>
@@ -118,30 +149,30 @@ class DhruvMishra:
 
 <div align="center">
 
-## ◈ SKILL PROFICIENCY ◈
+## ✦ SKILL PROFICIENCY ✦
 
 </div>
 
 ```
-🔴  Python          ████████████████████  95%
-🔴  C / C++         ████████████████░░░░  80%
-🔴  JavaScript      ████████████████░░░░  80%
-🔴  React           ███████████████░░░░░  75%
-🔴  FastAPI         ████████████████░░░░  80%
-🔴  Node.js         ██████████████░░░░░░  70%
-🔴  ASP.NET Core    █████████████░░░░░░░  65%
-🔴  SQL / MongoDB   ████████████████░░░░  80%
-🔴  AI/ML Systems   ████████████████░░░░  80%
-🔴  Robotics        ████████████░░░░░░░░  60%
-🔴  Docker / GCP    █████████████░░░░░░░  65%
-🔴  DSA             ████████████████░░░░  80%
+⚡  Python           ████████████████████  95%
+⚡  C / C++          ████████████████░░░░  80%
+⚡  JavaScript       ████████████████░░░░  80%
+⚡  React            ███████████████░░░░░  75%
+⚡  FastAPI          ████████████████░░░░  80%
+⚡  Node.js          ██████████████░░░░░░  70%
+⚡  ASP.NET Core     █████████████░░░░░░░  65%
+⚡  SQL / MongoDB    ████████████████░░░░  80%
+⚡  AI/ML Systems    ████████████████░░░░  80%
+⚡  Robotics & CAD   ██████████████░░░░░░  70%
+⚡  UiPath / RPA     █████████████░░░░░░░  65%
+⚡  DSA              ████████████████░░░░  80%
 ```
 
 ---
 
 <div align="center">
 
-## ◈ FEATURED PROJECTS ◈
+## ✦ FEATURED PROJECTS ✦
 
 </div>
 
@@ -150,10 +181,10 @@ class DhruvMishra:
 <td width="50%">
 
 ### 🧠 NexusHire — AI Hiring Copilot
-> *Intelligent recruitment powered by agentic AI*
+> *Agentic AI-powered recruitment intelligence*
 
 **Stack:**
-`FastAPI` · `Python` · `React` · `TinyFish Agents`
+`FastAPI` · `Python` · `React` · `Agentic Workflows`
 
 | Feature | Status |
 |---|---|
@@ -162,25 +193,63 @@ class DhruvMishra:
 | 🔐 AI Authenticity Scoring | ✅ Live |
 | 📈 Recruiter Analytics Dashboard | ✅ Live |
 
-> Engineered agentic evaluation pipelines for automated, data-driven screening
+> RESTful pipelines processing resumes, GitHub & LinkedIn data into AI-evaluated hiring insights
 
 </td>
 <td width="50%">
 
 ### 🏥 Arogyam — AI Healthcare Platform
-> *Smart healthcare triage & emergency response*
+> *Smart triage, emergency response & diagnosis*
 
 **Stack:**
-`React` · `Node.js` · `WhatsApp API` · `AI Models`
+`React.js` · `Node.js` · `WhatsApp API` · `AI Models`
 
 | Feature | Status |
 |---|---|
 | 💬 AI Symptom Analysis | ✅ Live |
-| 🚨 Emergency Alert Workflow | ✅ Live |
+| 🚨 Emergency Alert (< 1 min) | ✅ Live |
 | 📷 Image-Based Diagnosis | ✅ Live |
-| 🏥 Hospital Notification System | ✅ Live |
+| 🏥 Hospital/Nurse Notification | ✅ Live |
 
-> 🏆 **Smart India Hackathon 2025 — Round 2 Selection**
+> 🏆 **Smart India Hackathon 2025 — Round 2 Selected**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🚁 Autonomous Delivery & Surveillance Robot
+> *Embedded AI robotics for hostels & societies*
+
+**Stack:**
+`Arduino` · `Raspberry Pi` · `Python` · `Fusion 360`
+
+| Component | Detail |
+|---|---|
+| 🧭 Navigation | Sensor-driven autonomous |
+| 📷 Vision | Camera + proximity sensors |
+| 🌡️ Monitoring | Temperature regulation |
+| 📱 Control | Mobile app interface |
+
+> ~70% task automation achieved in prototype simulations
+
+</td>
+<td width="50%">
+
+### 🏥 ICU Sanitation Robot *(Reverse Eng.)*
+> *Contactless hospital-grade cleaning system*
+
+**Stack:**
+`Embedded Systems` · `CAD` · `AI Safety Models`
+
+| Feature | Detail |
+|---|---|
+| ☢️ UV Sanitation | Contactless ICU cleaning |
+| 🤖 AI Navigation | Contamination avoidance |
+| 🔬 Reverse Eng. | Commercial system analysis |
+| 📱 App Integration | Remote monitoring |
+
+> Designed to minimize human interaction in critical zones
 
 </td>
 </tr>
@@ -190,40 +259,59 @@ class DhruvMishra:
 
 <div align="center">
 
-## ◈ WORK EXPERIENCE ◈
+## ✦ RESEARCH & WORK EXPERIENCE ✦
 
 </div>
 
 <table align="center">
 <tr>
-<th>🏢 Company</th>
+<th>🏢 Organisation</th>
 <th>🎯 Role</th>
 <th>📅 Duration</th>
+<th>🔬 Domain</th>
 <th>🚀 Impact</th>
 </tr>
 <tr>
-<td><b>🔩 TATA STEEL</b></td>
-<td>Software Developer Intern (Backend)</td>
-<td>May '25 – Jun '25</td>
-<td>⚡ <b>~25%</b> faster data processing</td>
+<td><b>🤖 KIIT Research Centre (KSRC)</b></td>
+<td>Research Assistant — Robotics R&D</td>
+<td>Sep '24 – Jan '25</td>
+<td>Robotics & Embedded</td>
+<td>⚡ <b>~70%</b> task automation</td>
+</tr>
+<tr>
+<td><b>🤖 UiPath Student Community</b></td>
+<td>Undergraduate AI Researcher</td>
+<td>May '25 – Present</td>
+<td>AI & Agentic Systems</td>
+<td>🧪 <b>30%+</b> process efficiency</td>
+</tr>
+<tr>
+<td><b>⚡ ASME KIIT</b></td>
+<td>R&D Member — EV & Robotics</td>
+<td>May '25 – Sep '25</td>
+<td>Mechanical & EV R&D</td>
+<td>⚡ <b>~20%</b> faster prototyping</td>
+</tr>
+<tr>
+<td><b>🏭 TATA STEEL</b></td>
+<td>Backend Developer Intern</td>
+<td>Jul '25 – Aug '25</td>
+<td>Enterprise Backend</td>
+<td>⚡ <b>~25%</b> faster data access</td>
+</tr>
+<tr>
+<td><b>🏭 TATA STEEL</b></td>
+<td>Data Analyst Intern</td>
+<td>May '24 – Jun '24</td>
+<td>Data Analysis</td>
+<td>📊 <b>~30%</b> faster reporting</td>
 </tr>
 <tr>
 <td><b>💹 FAXIS</b></td>
 <td>Full Stack Developer Intern</td>
 <td>Jul '25 – Sep '25</td>
-<td>⚡ <b>~25%</b> improved page rendering</td>
-</tr>
-<tr>
-<td><b>🤖 UiPath (KIIT)</b></td>
-<td>Undergraduate Researcher</td>
-<td>Apr '25 – Aug '25</td>
-<td>🧪 Agentic AI workflow research</td>
-</tr>
-<tr>
-<td><b>🦾 KIIT R&D Lab</b></td>
-<td>Robotics Research Engineer</td>
-<td>Sep '24 – Jan '25</td>
-<td>⚡ <b>~70%</b> reduced manual ops</td>
+<td>Fintech Web Dev</td>
+<td>⚡ <b>~25%</b> faster page load</td>
 </tr>
 </table>
 
@@ -231,59 +319,65 @@ class DhruvMishra:
 
 <div align="center">
 
-## ◈ GITHUB STATS ◈
+## ✦ GITHUB STATS ✦
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruvtara108&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=ff4444&text_color=ffffff&icon_color=ff4444&border_color=B80000&count_private=true&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvtara108&layout=donut&theme=dark&bg_color=0d0d0d&title_color=ff4444&text_color=ffffff&border_color=B80000"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruvtara108&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=FFD700&text_color=ffffff&icon_color=FFD700&border_color=FFD700&count_private=true&include_all_commits=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvtara108&layout=donut&theme=dark&bg_color=0d0d0d&title_color=FFD700&text_color=ffffff&border_color=FFD700"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ CERTIFICATIONS ✦
+
+| 🏅 Certification | 🏢 Issuer | 📅 Date |
+|---|---|---|
+| 🤖 Introduction to Automation | UiPath | May '25 |
+| 💻 Software Engineering Job Simulation | Electronic Arts (EA) | May '25 |
+| 🧠 AI for Beginners | HP | Aug '25 |
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ ACHIEVEMENT ✦
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  🏆  SMART INDIA HACKATHON 2025 — ROUND 2 SELECTION              ║
+║  Ministry of Education, Government of India  ·  Nov '25          ║
+║  Project: Arogyam — AI Healthcare Platform                       ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ CS FOUNDATIONS ✦
+
+`⚡ DSA` &nbsp; `⚡ OOP` &nbsp; `⚡ DBMS` &nbsp; `⚡ OS` &nbsp; `⚡ Computer Networks` &nbsp; `⚡ COA` &nbsp; `⚡ System Design` &nbsp; `⚡ CD`
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ CONNECT WITH ME ✦
+
+[![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=black&labelColor=1a1a1a)](mailto:mishradhruv257@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-5K%2B_Followers-FFD700?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=1a1a1a)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Dhruvtara108&theme=dark&background=0d0d0d&border=B80000&ring=ff4444&fire=ff0000&currStreakLabel=ffffff&sideLabels=ffffff&dates=aaaaaa&currStreakNum=ffffff&sideNums=ff4444)](https://git.io/streak-stats)
-
-</div>
-
----
-
-<div align="center">
-
-## ◈ ACHIEVEMENT ◈
-
-</div>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  🏆  SMART INDIA HACKATHON 2025 — ROUND 2 SELECTION          ║
-║  Ministry of Education, Government of India  ·  Nov '25      ║
-║  Developed: Arogyam AI Healthcare Platform                   ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<div align="center">
-
-## ◈ CS FOUNDATIONS ◈
-
-`🔴 DSA` &nbsp; `🔴 OOP` &nbsp; `🔴 DBMS` &nbsp; `🔴 OS` &nbsp; `🔴 Computer Networks` &nbsp; `🔴 System Design`
-
-</div>
-
----
-
-<div align="center">
-
-## ◈ CONNECT WITH ME ◈
-
-[![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-B80000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a1a)](mailto:mishradhruv257@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-dhruv-B80000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://linkedin.com/in/dhruv)
-[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-B80000?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=B80000,1a1a1a&height=120&section=footer&text=Building+AI+Systems+%7C+Scalable+Backends+%7C+Autonomous+Robots&fontSize=14&fontColor=ffffff&fontAlignY=65&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFD700,1a1a1a&height=130&section=footer&text=Researching+AI+%7C+Building+Robots+%7C+Engineering+Scale&fontSize=15&fontColor=ffffff&fontAlignY=65&animation=twinkling"/>
 
 </div>
