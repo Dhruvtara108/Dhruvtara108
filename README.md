@@ -1,220 +1,289 @@
-<!-- <h2> Hey there! I'm Dhruv.</h2>
+<div align="center">
 
-<h3> 👨🏻‍💻 &nbsp;About Me </h3>
+<!-- HEADER BANNER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=B80000,1a1a1a&height=200&section=header&text=DHRUV%20MISHRA&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20Systems%20Builder%20%7C%20Robotics%20Researcher&descAlignY=58&descSize=18&descColor=ff6b6b&animation=twinkling" />
 
-- 🤖 &nbsp; Building projects in Artificial Intelligence, Robotics, and Full-Stack Development.
-- 🎓 &nbsp; Computer Science student at KIIT University.
-- 💼 &nbsp; Interned as Backend Developer at Tata Steel and Full-Stack Developer at Faxis.
-- 🔬 &nbsp; Worked in R&D at ASME KIIT focusing on robotics systems.
-- 🌱 &nbsp; Currently learning System Design, DSA, AI Engineering, and scalable backend systems.
-- 🚀 &nbsp; Exploring startup ideas in AI, automation, and developer tools.
-
-<h3> 🛠 &nbsp;Tech Stack</h3>
-
-- 💻 &nbsp;
-  ![C++](https://img.shields.io/badge/-C++-333333?style=flat&logo=cplusplus)
-  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-
-- 🌐 &nbsp;
-  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-  ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
-  ![HTML](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=html5)
-  ![CSS](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=css3)
-
-- 🛢 &nbsp;
-  ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
-  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-  ![Firebase](https://img.shields.io/badge/-Firebase-333333?style=flat&logo=firebase)
-
-- ⚙️ &nbsp;
-  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-  ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
-
-- 🔧 &nbsp;
-  ![VS Code](https://img.shields.io/badge/-VS%20Code-333333?style=flat&logo=visual-studio-code)
-  ![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=linux)
+<!-- TYPING ANIMATION -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=FF0000&center=true&vCenter=true&width=700&lines=🤖+AI+Systems+Engineer;⚙️+Backend+%26+Full-Stack+Developer;🦾+Robotics+Researcher+%40+KIIT;🚀+Building+Scalable+Intelligent+Systems)](https://git.io/typing-svg)
 
 <br/>
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img
-    height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&include_all_commits=true&count_private=true&theme=buefy"
-  />
-  <img
-    height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&theme=buefy&layout=compact"
-  />
-</a>
+<!-- PROFILE VIEWS + SOCIALS -->
+![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=B80000&style=for-the-badge&label=PROFILE+VIEWS)
+[![GitHub followers](https://img.shields.io/github/followers/Dhruvtara108?label=FOLLOWERS&style=for-the-badge&color=B80000&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-B80000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://linkedin.com/in/dhruv)
 
-<br/>
-
-<h3> 🤝🏻 &nbsp;Connect with Me </h3>
-
-<p align="center">
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-<img alt="GitHub" src="https://img.shields.io/badge/GitHub-YOUR_GITHUB_USERNAME-blue?style=flat-square&logo=github">
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Dhruv-blue?style=flat-square&logo=linkedin">
-</a>
-
-</p> -->
-
-<h1 align="center">Dhruv Mishra</h1>
-<h3 align="center">Software Engineer | AI Systems Builder | Backend Engineer | Robotics Researcher</h3>
-
-<p align="center">
-Engineering intelligent systems, scalable APIs, and AI-driven platforms at the intersection of <b>software engineering, automation, and robotics</b>.
-</p>
+</div>
 
 ---
 
-## 👨‍💻 About Me
+<div align="center">
 
-- 🧠 AI Systems Engineer building intelligent automation and decision pipelines  
-- ⚙️ Backend Developer focused on scalable APIs and high-performance data systems  
-- 🤖 Robotics Researcher designing autonomous and sensor-driven systems  
-- 🚀 Exploring AI startups, agentic workflows, and developer tools  
-- 🌍 Collaborating with engineers and founders on AI systems and automation platforms  
+## ◈ ABOUT ME ◈
 
----
+</div>
 
-## 🛠 Tech Stack
+```python
+class DhruvMishra:
+    def __init__(self):
+        self.name        = "Dhruv Mishra"
+        self.role        = "Software Engineer & AI Systems Builder"
+        self.university  = "KIIT University, B.Tech CSE (2023–Present)"
+        self.location    = "Bhubaneswar, India 🇮🇳"
+        self.email       = "mishradhruv257@gmail.com"
 
-### Programming Languages
-Python | C++ | C | JavaScript
+    @property
+    def currently(self):
+        return [
+            "🧠  Building AI evaluation & agentic pipelines",
+            "⚙️  Designing scalable backends & REST APIs",
+            "🤖  Researching autonomous robotics systems",
+            "🚀  Exploring AI startups & developer tools",
+        ]
 
-### Backend Engineering
-FastAPI | Node.js | ASP.NET Core | REST APIs | MVC Architecture
-
-### Frontend
-React | HTML | CSS
-
-### Databases
-MongoDB | MySQL | SQL Server | Google BigQuery
-
-### AI & Automation
-Machine Learning Systems  
-AI Evaluation Pipelines  
-Agentic Workflows  
-Automation Systems  
-UiPath
-
-### Robotics & Embedded Systems
-Arduino  
-Raspberry Pi  
-Sensor Automation  
-Robotics Programming
-
-### Tools & Cloud
-Git | GitHub | Docker | Linux | Google Cloud Platform | Vercel
+    @property
+    def ask_me_about(self):
+        return ["AI Systems", "Backend Engineering", "Robotics", "Full-Stack Dev"]
+```
 
 ---
 
-## 🚀 Key Projects
+<div align="center">
+
+## ◈ TECH ARSENAL ◈
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="200">
+
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=ff4444)
+![C++](https://img.shields.io/badge/C++-1a1a1a?style=for-the-badge&logo=cplusplus&logoColor=ff4444)
+![C](https://img.shields.io/badge/C-1a1a1a?style=for-the-badge&logo=c&logoColor=ff4444)
+![JavaScript](https://img.shields.io/badge/JavaScript-1a1a1a?style=for-the-badge&logo=javascript&logoColor=ff4444)
+
+</td>
+<td align="center" width="200">
+
+### ⚙️ Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=ff4444)
+![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=for-the-badge&logo=node.js&logoColor=ff4444)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-1a1a1a?style=for-the-badge&logo=dotnet&logoColor=ff4444)
+![REST APIs](https://img.shields.io/badge/REST_APIs-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=ff4444)
+
+</td>
+<td align="center" width="200">
+
+### 🌐 Frontend
+![React](https://img.shields.io/badge/React-1a1a1a?style=for-the-badge&logo=react&logoColor=ff4444)
+![HTML5](https://img.shields.io/badge/HTML5-1a1a1a?style=for-the-badge&logo=html5&logoColor=ff4444)
+![CSS3](https://img.shields.io/badge/CSS3-1a1a1a?style=for-the-badge&logo=css3&logoColor=ff4444)
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-1a1a1a?style=for-the-badge&logo=shadcnui&logoColor=ff4444)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="200">
+
+### 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-1a1a1a?style=for-the-badge&logo=mongodb&logoColor=ff4444)
+![MySQL](https://img.shields.io/badge/SQL_Server-1a1a1a?style=for-the-badge&logo=microsoftsqlserver&logoColor=ff4444)
+![BigQuery](https://img.shields.io/badge/BigQuery-1a1a1a?style=for-the-badge&logo=googlebigquery&logoColor=ff4444)
+
+</td>
+<td align="center" width="200">
+
+### ☁️ Cloud & Tools
+![GCP](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=googlecloud&logoColor=ff4444)
+![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=ff4444)
+![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=ff4444)
+![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=for-the-badge&logo=linux&logoColor=ff4444)
+
+</td>
+<td align="center" width="200">
+
+### 🤖 AI & Robotics
+![ML](https://img.shields.io/badge/ML_Systems-1a1a1a?style=for-the-badge&logo=tensorflow&logoColor=ff4444)
+![UiPath](https://img.shields.io/badge/UiPath-1a1a1a?style=for-the-badge&logo=uipath&logoColor=ff4444)
+![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino&logoColor=ff4444)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi&logoColor=ff4444)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## ◈ SKILL PROFICIENCY ◈
+
+</div>
+
+```
+🔴  Python          ████████████████████  95%
+🔴  C / C++         ████████████████░░░░  80%
+🔴  JavaScript      ████████████████░░░░  80%
+🔴  React           ███████████████░░░░░  75%
+🔴  FastAPI         ████████████████░░░░  80%
+🔴  Node.js         ██████████████░░░░░░  70%
+🔴  ASP.NET Core    █████████████░░░░░░░  65%
+🔴  SQL / MongoDB   ████████████████░░░░  80%
+🔴  AI/ML Systems   ████████████████░░░░  80%
+🔴  Robotics        ████████████░░░░░░░░  60%
+🔴  Docker / GCP    █████████████░░░░░░░  65%
+🔴  DSA             ████████████████░░░░  80%
+```
+
+---
+
+<div align="center">
+
+## ◈ FEATURED PROJECTS ◈
+
+</div>
+
+<table align="center">
+<tr>
+<td width="50%">
 
 ### 🧠 NexusHire — AI Hiring Copilot
+> *Intelligent recruitment powered by agentic AI*
 
-AI-powered hiring intelligence platform.
+**Stack:**
+`FastAPI` · `Python` · `React` · `TinyFish Agents`
 
-Tech Stack
+| Feature | Status |
+|---|---|
+| 🎯 Candidate Skill Extraction | ✅ Live |
+| 📊 GitHub Activity Analysis | ✅ Live |
+| 🔐 AI Authenticity Scoring | ✅ Live |
+| 📈 Recruiter Analytics Dashboard | ✅ Live |
 
-```text
-FastAPI
-Python
-React
-AI Evaluation Pipelines
-```
+> Engineered agentic evaluation pipelines for automated, data-driven screening
 
-Features
-
-- Automated candidate skill extraction  
-- GitHub activity analysis  
-- AI authenticity scoring  
-- Recruiter analytics dashboard  
-
----
+</td>
+<td width="50%">
 
 ### 🏥 Arogyam — AI Healthcare Platform
+> *Smart healthcare triage & emergency response*
 
-AI-assisted healthcare triage platform.
+**Stack:**
+`React` · `Node.js` · `WhatsApp API` · `AI Models`
 
-Stack
+| Feature | Status |
+|---|---|
+| 💬 AI Symptom Analysis | ✅ Live |
+| 🚨 Emergency Alert Workflow | ✅ Live |
+| 📷 Image-Based Diagnosis | ✅ Live |
+| 🏥 Hospital Notification System | ✅ Live |
 
-```text
-React
-Node.js
-WhatsApp API
-AI Symptom Analysis
+> 🏆 **Smart India Hackathon 2025 — Round 2 Selection**
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## ◈ WORK EXPERIENCE ◈
+
+</div>
+
+<table align="center">
+<tr>
+<th>🏢 Company</th>
+<th>🎯 Role</th>
+<th>📅 Duration</th>
+<th>🚀 Impact</th>
+</tr>
+<tr>
+<td><b>🔩 TATA STEEL</b></td>
+<td>Software Developer Intern (Backend)</td>
+<td>May '25 – Jun '25</td>
+<td>⚡ <b>~25%</b> faster data processing</td>
+</tr>
+<tr>
+<td><b>💹 FAXIS</b></td>
+<td>Full Stack Developer Intern</td>
+<td>Jul '25 – Sep '25</td>
+<td>⚡ <b>~25%</b> improved page rendering</td>
+</tr>
+<tr>
+<td><b>🤖 UiPath (KIIT)</b></td>
+<td>Undergraduate Researcher</td>
+<td>Apr '25 – Aug '25</td>
+<td>🧪 Agentic AI workflow research</td>
+</tr>
+<tr>
+<td><b>🦾 KIIT R&D Lab</b></td>
+<td>Robotics Research Engineer</td>
+<td>Sep '24 – Jan '25</td>
+<td>⚡ <b>~70%</b> reduced manual ops</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## ◈ GITHUB STATS ◈
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruvtara108&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=ff4444&text_color=ffffff&icon_color=ff4444&border_color=B80000&count_private=true&include_all_commits=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvtara108&layout=donut&theme=dark&bg_color=0d0d0d&title_color=ff4444&text_color=ffffff&border_color=B80000"/>
+
+<br/>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Dhruvtara108&theme=dark&background=0d0d0d&border=B80000&ring=ff4444&fire=ff0000&currStreakLabel=ffffff&sideLabels=ffffff&dates=aaaaaa&currStreakNum=ffffff&sideNums=ff4444)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<div align="center">
+
+## ◈ ACHIEVEMENT ◈
+
+</div>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  🏆  SMART INDIA HACKATHON 2025 — ROUND 2 SELECTION          ║
+║  Ministry of Education, Government of India  ·  Nov '25      ║
+║  Developed: Arogyam AI Healthcare Platform                   ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-Capabilities
-
-- AI-powered symptom analysis  
-- Medical query submission system  
-- Emergency alert workflows  
-- Image-based diagnosis assistance  
+</div>
 
 ---
 
-## 💼 Industry Experience
+<div align="center">
 
-### Software Developer Intern — Tata Steel
+## ◈ CS FOUNDATIONS ◈
 
-- Built enterprise systems using **ASP.NET Core MVC and SQL**
-- Integrated **Google BigQuery datasets**
-- Improved internal data processing efficiency by **~25%**
+`🔴 DSA` &nbsp; `🔴 OOP` &nbsp; `🔴 DBMS` &nbsp; `🔴 OS` &nbsp; `🔴 Computer Networks` &nbsp; `🔴 System Design`
 
-### Full Stack Developer Intern — Faxis
-
-- Developed financial computation modules using **React**
-- Built SQL-backed backend logic
-- Improved application performance by **~25%**
-
-### Robotics Research Engineer — KIIT Research Centre
-
-- Led a **5-member robotics engineering team**
-- Built **autonomous delivery and surveillance robots**
-- Reduced operational processes by **~70%**
+</div>
 
 ---
 
-## 🧠 Core Computer Science
+<div align="center">
 
-Data Structures & Algorithms  
-Operating Systems  
-DBMS  
-Computer Networks  
-Object Oriented Programming  
-System Design  
+## ◈ CONNECT WITH ME ◈
 
----
+[![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-B80000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a1a)](mailto:mishradhruv257@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-dhruv-B80000?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://linkedin.com/in/dhruv)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-B80000?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
 
-## 📊 GitHub Stats
+<br/>
 
-<p align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=B80000,1a1a1a&height=120&section=footer&text=Building+AI+Systems+%7C+Scalable+Backends+%7C+Autonomous+Robots&fontSize=14&fontColor=ffffff&fontAlignY=65&animation=twinkling"/>
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Dhruvtara108&show_icons=true&theme=tokyonight"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvtara108&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-## 🌍 Connect
-
-GitHub  
-https://github.com/Dhruvtara108  
-
-LinkedIn  
-https://linkedin.com/in/dhruv  
-
----
-
-⭐ Building **AI systems, automation platforms, and scalable software infrastructure.**
+</div>
