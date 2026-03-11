@@ -1,4 +1,4 @@
-<h2> Hey there! I'm Dhruv.</h2>
+<!-- <h2> Hey there! I'm Dhruv.</h2>
 
 <h3> 👨🏻‍💻 &nbsp;About Me </h3>
 
@@ -63,4 +63,158 @@
 <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Dhruv-blue?style=flat-square&logo=linkedin">
 </a>
 
+</p> -->
+
+<h1 align="center">Dhruv Mishra</h1>
+<h3 align="center">Software Engineer | AI Systems Builder | Backend Engineer | Robotics Researcher</h3>
+
+<p align="center">
+Engineering intelligent systems, scalable APIs, and AI-driven platforms at the intersection of <b>software engineering, automation, and robotics</b>.
 </p>
+
+---
+
+## 👨‍💻 About Me
+
+- 🧠 AI Systems Engineer building intelligent automation and decision pipelines  
+- ⚙️ Backend Developer focused on scalable APIs and high-performance data systems  
+- 🤖 Robotics Researcher designing autonomous and sensor-driven systems  
+- 🚀 Exploring AI startups, agentic workflows, and developer tools  
+- 🌍 Collaborating with engineers and founders on AI systems and automation platforms  
+
+---
+
+## 🛠 Tech Stack
+
+### Programming Languages
+Python | C++ | C | JavaScript
+
+### Backend Engineering
+FastAPI | Node.js | ASP.NET Core | REST APIs | MVC Architecture
+
+### Frontend
+React | HTML | CSS
+
+### Databases
+MongoDB | MySQL | SQL Server | Google BigQuery
+
+### AI & Automation
+Machine Learning Systems  
+AI Evaluation Pipelines  
+Agentic Workflows  
+Automation Systems  
+UiPath
+
+### Robotics & Embedded Systems
+Arduino  
+Raspberry Pi  
+Sensor Automation  
+Robotics Programming
+
+### Tools & Cloud
+Git | GitHub | Docker | Linux | Google Cloud Platform | Vercel
+
+---
+
+## 🚀 Key Projects
+
+### 🧠 NexusHire — AI Hiring Copilot
+
+AI-powered hiring intelligence platform.
+
+Tech Stack
+
+```text
+FastAPI
+Python
+React
+AI Evaluation Pipelines
+```
+
+Features
+
+- Automated candidate skill extraction  
+- GitHub activity analysis  
+- AI authenticity scoring  
+- Recruiter analytics dashboard  
+
+---
+
+### 🏥 Arogyam — AI Healthcare Platform
+
+AI-assisted healthcare triage platform.
+
+Stack
+
+```text
+React
+Node.js
+WhatsApp API
+AI Symptom Analysis
+```
+
+Capabilities
+
+- AI-powered symptom analysis  
+- Medical query submission system  
+- Emergency alert workflows  
+- Image-based diagnosis assistance  
+
+---
+
+## 💼 Industry Experience
+
+### Software Developer Intern — Tata Steel
+
+- Built enterprise systems using **ASP.NET Core MVC and SQL**
+- Integrated **Google BigQuery datasets**
+- Improved internal data processing efficiency by **~25%**
+
+### Full Stack Developer Intern — Faxis
+
+- Developed financial computation modules using **React**
+- Built SQL-backed backend logic
+- Improved application performance by **~25%**
+
+### Robotics Research Engineer — KIIT Research Centre
+
+- Led a **5-member robotics engineering team**
+- Built **autonomous delivery and surveillance robots**
+- Reduced operational processes by **~70%**
+
+---
+
+## 🧠 Core Computer Science
+
+Data Structures & Algorithms  
+Operating Systems  
+DBMS  
+Computer Networks  
+Object Oriented Programming  
+System Design  
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Dhruvtara108&show_icons=true&theme=tokyonight"/>
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvtara108&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+## 🌍 Connect
+
+GitHub  
+https://github.com/Dhruvtara108  
+
+LinkedIn  
+https://linkedin.com/in/dhruv  
+
+---
+
+⭐ Building **AI systems, automation platforms, and scalable software infrastructure.**
