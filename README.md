@@ -1,17 +1,25 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFD700,1a1a1a&height=220&section=header&text=DHRUV&fontSize=90&fontColor=FFD700&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20Systems%20Builder%20%7C%20Robotics%20Researcher&descAlignY=60&descSize=18&descColor=ffffff&animation=twinkling&fontAlign=50" />
+<!-- ANIMATED WAVE HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a,0d1b2a&height=80&section=header"/>
+
+<!-- CUSTOM TECHY NAME using readme-typing-svg with Orbitron-style render -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=900&size=72&duration=99999&pause=999999&color=A8D8EA&center=true&vCenter=true&width=900&height=120&lines=DHRUV" alt="DHRUV"/>
+
+<!-- GLOWING SUBTITLE -->
+<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=22&duration=99999&pause=999999&color=FFFFFF&center=true&vCenter=true&width=800&height=40&lines=Software+Engineer+%7C+AI+Systems+Builder+%7C+Robotics+Researcher" alt="subtitle"/>
+
+<br/>
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=800&size=20&pause=1000&color=FFD700&center=true&vCenter=true&width=750&lines=🤖+AI+Systems+%26+Robotics+Researcher;⚙️+Backend+%26+Full-Stack+Engineer;🔬+Passionate+Researcher+%40+KIIT;🚀+Building+Intelligent+Autonomous+Systems;🧠+Agentic+AI+%7C+Embedded+Systems+%7C+R%26D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=18&pause=1000&color=A8D8EA&center=true&vCenter=true&width=750&lines=🤖+AI+Systems+%26+Robotics+Researcher;⚙️+Backend+%26+Full-Stack+Engineer;🔬+Passionate+Researcher+%40+KIIT;🚀+Building+Intelligent+Autonomous+Systems;🧠+Agentic+AI+%7C+Embedded+Systems+%7C+R%26D)](https://git.io/typing-svg)
 
 <br/>
 
 <!-- BADGES -->
-![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS&labelColor=1a1a1a)
-[![LinkedIn](https://img.shields.io/badge/5K%2B_FOLLOWERS-LinkedIn-FFD700?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=1a1a1a)](https://www.linkedin.com/in/dhruv-01352a279/)
-[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
+![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=A8D8EA&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0d1b2a)
+[![LinkedIn](https://img.shields.io/badge/5K%2B_FOLLOWERS-LinkedIn-A8D8EA?style=for-the-badge&logo=linkedin&logoColor=0d1b2a&labelColor=0d1b2a)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-A8D8EA?style=for-the-badge&logo=github&logoColor=0d1b2a&labelColor=0d1b2a)](https://github.com/Dhruvtara108)
 
 </div>
 
@@ -88,30 +96,30 @@ class Dhruv:
 <td align="center" width="200">
 
 ### 💻 Languages
-![Python](https://img.shields.io/badge/Python-1a1a1a?style=for-the-badge&logo=python&logoColor=FFD700)
-![C++](https://img.shields.io/badge/C++-1a1a1a?style=for-the-badge&logo=cplusplus&logoColor=FFD700)
-![C](https://img.shields.io/badge/C-1a1a1a?style=for-the-badge&logo=c&logoColor=FFD700)
-![JavaScript](https://img.shields.io/badge/JavaScript-1a1a1a?style=for-the-badge&logo=javascript&logoColor=FFD700)
-![C#](https://img.shields.io/badge/C%23-1a1a1a?style=for-the-badge&logo=csharp&logoColor=FFD700)
-![MATLAB](https://img.shields.io/badge/MATLAB-1a1a1a?style=for-the-badge&logo=mathworks&logoColor=FFD700)
+![Python](https://img.shields.io/badge/Python-0d1b2a?style=for-the-badge&logo=python&logoColor=A8D8EA)
+![C++](https://img.shields.io/badge/C++-0d1b2a?style=for-the-badge&logo=cplusplus&logoColor=A8D8EA)
+![C](https://img.shields.io/badge/C-0d1b2a?style=for-the-badge&logo=c&logoColor=A8D8EA)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1b2a?style=for-the-badge&logo=javascript&logoColor=A8D8EA)
+![C#](https://img.shields.io/badge/C%23-0d1b2a?style=for-the-badge&logo=csharp&logoColor=A8D8EA)
+![MATLAB](https://img.shields.io/badge/MATLAB-0d1b2a?style=for-the-badge&logo=mathworks&logoColor=A8D8EA)
 
 </td>
 <td align="center" width="200">
 
 ### ⚙️ Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=FFD700)
-![Node.js](https://img.shields.io/badge/Node.js-1a1a1a?style=for-the-badge&logo=node.js&logoColor=FFD700)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-1a1a1a?style=for-the-badge&logo=dotnet&logoColor=FFD700)
-![REST APIs](https://img.shields.io/badge/REST_APIs-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=FFD700)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1b2a?style=for-the-badge&logo=fastapi&logoColor=A8D8EA)
+![Node.js](https://img.shields.io/badge/Node.js-0d1b2a?style=for-the-badge&logo=node.js&logoColor=A8D8EA)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-0d1b2a?style=for-the-badge&logo=dotnet&logoColor=A8D8EA)
+![REST APIs](https://img.shields.io/badge/REST_APIs-0d1b2a?style=for-the-badge&logo=fastapi&logoColor=A8D8EA)
 
 </td>
 <td align="center" width="200">
 
 ### 🌐 Frontend
-![React](https://img.shields.io/badge/React_19-1a1a1a?style=for-the-badge&logo=react&logoColor=FFD700)
-![HTML5](https://img.shields.io/badge/HTML5-1a1a1a?style=for-the-badge&logo=html5&logoColor=FFD700)
-![CSS3](https://img.shields.io/badge/CSS3-1a1a1a?style=for-the-badge&logo=css3&logoColor=FFD700)
-![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-1a1a1a?style=for-the-badge&logo=shadcnui&logoColor=FFD700)
+![React](https://img.shields.io/badge/React_19-0d1b2a?style=for-the-badge&logo=react&logoColor=A8D8EA)
+![HTML5](https://img.shields.io/badge/HTML5-0d1b2a?style=for-the-badge&logo=html5&logoColor=A8D8EA)
+![CSS3](https://img.shields.io/badge/CSS3-0d1b2a?style=for-the-badge&logo=css3&logoColor=A8D8EA)
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-0d1b2a?style=for-the-badge&logo=shadcnui&logoColor=A8D8EA)
 
 </td>
 </tr>
@@ -119,27 +127,27 @@ class Dhruv:
 <td align="center" width="200">
 
 ### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-1a1a1a?style=for-the-badge&logo=mongodb&logoColor=FFD700)
-![SQL Server](https://img.shields.io/badge/SQL_Server-1a1a1a?style=for-the-badge&logo=microsoftsqlserver&logoColor=FFD700)
-![BigQuery](https://img.shields.io/badge/BigQuery-1a1a1a?style=for-the-badge&logo=googlebigquery&logoColor=FFD700)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1b2a?style=for-the-badge&logo=mongodb&logoColor=A8D8EA)
+![SQL Server](https://img.shields.io/badge/SQL_Server-0d1b2a?style=for-the-badge&logo=microsoftsqlserver&logoColor=A8D8EA)
+![BigQuery](https://img.shields.io/badge/BigQuery-0d1b2a?style=for-the-badge&logo=googlebigquery&logoColor=A8D8EA)
 
 </td>
 <td align="center" width="200">
 
 ### ☁️ Cloud & Tools
-![GCP](https://img.shields.io/badge/GCP-1a1a1a?style=for-the-badge&logo=googlecloud&logoColor=FFD700)
-![Docker](https://img.shields.io/badge/Docker-1a1a1a?style=for-the-badge&logo=docker&logoColor=FFD700)
-![Git](https://img.shields.io/badge/Git-1a1a1a?style=for-the-badge&logo=git&logoColor=FFD700)
-![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=for-the-badge&logo=linux&logoColor=FFD700)
+![GCP](https://img.shields.io/badge/GCP-0d1b2a?style=for-the-badge&logo=googlecloud&logoColor=A8D8EA)
+![Docker](https://img.shields.io/badge/Docker-0d1b2a?style=for-the-badge&logo=docker&logoColor=A8D8EA)
+![Git](https://img.shields.io/badge/Git-0d1b2a?style=for-the-badge&logo=git&logoColor=A8D8EA)
+![Linux](https://img.shields.io/badge/Linux-0d1b2a?style=for-the-badge&logo=linux&logoColor=A8D8EA)
 
 </td>
 <td align="center" width="200">
 
 ### 🤖 AI & Robotics
-![UiPath](https://img.shields.io/badge/UiPath-1a1a1a?style=for-the-badge&logo=uipath&logoColor=FFD700)
-![Arduino](https://img.shields.io/badge/Arduino-1a1a1a?style=for-the-badge&logo=arduino&logoColor=FFD700)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1a1a1a?style=for-the-badge&logo=raspberrypi&logoColor=FFD700)
-![Fusion 360](https://img.shields.io/badge/Fusion_360-1a1a1a?style=for-the-badge&logo=autodesk&logoColor=FFD700)
+![UiPath](https://img.shields.io/badge/UiPath-0d1b2a?style=for-the-badge&logo=uipath&logoColor=A8D8EA)
+![Arduino](https://img.shields.io/badge/Arduino-0d1b2a?style=for-the-badge&logo=arduino&logoColor=A8D8EA)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-0d1b2a?style=for-the-badge&logo=raspberrypi&logoColor=A8D8EA)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-0d1b2a?style=for-the-badge&logo=autodesk&logoColor=A8D8EA)
 
 </td>
 </tr>
@@ -154,18 +162,18 @@ class Dhruv:
 </div>
 
 ```
-⚡  Python           ████████████████████  95%
-⚡  C / C++          ████████████████░░░░  80%
-⚡  JavaScript       ████████████████░░░░  80%
-⚡  React            ███████████████░░░░░  75%
-⚡  FastAPI          ████████████████░░░░  80%
-⚡  Node.js          ██████████████░░░░░░  70%
-⚡  ASP.NET Core     █████████████░░░░░░░  65%
-⚡  SQL / MongoDB    ████████████████░░░░  80%
-⚡  AI/ML Systems    ████████████████░░░░  80%
-⚡  Robotics & CAD   ██████████████░░░░░░  70%
-⚡  UiPath / RPA     █████████████░░░░░░░  65%
-⚡  DSA              ████████████████░░░░  80%
+🔷  Python           ████████████████████  95%
+🔷  C / C++          ████████████████░░░░  80%
+🔷  JavaScript       ████████████████░░░░  80%
+🔷  React            ███████████████░░░░░  75%
+🔷  FastAPI          ████████████████░░░░  80%
+🔷  Node.js          ██████████████░░░░░░  70%
+🔷  ASP.NET Core     █████████████░░░░░░░  65%
+🔷  SQL / MongoDB    ████████████████░░░░  80%
+🔷  AI/ML Systems    ████████████████░░░░  80%
+🔷  Robotics & CAD   ██████████████░░░░░░  70%
+🔷  UiPath / RPA     █████████████░░░░░░░  65%
+🔷  DSA              ████████████████░░░░  80%
 ```
 
 ---
@@ -276,55 +284,44 @@ class Dhruv:
 <td>Research Assistant — Robotics R&D</td>
 <td>Sep '24 – Jan '25</td>
 <td>Robotics & Embedded</td>
-<td>⚡ <b>~70%</b> task automation</td>
+<td>💠 <b>~70%</b> task automation</td>
 </tr>
 <tr>
 <td><b>🤖 UiPath Student Community</b></td>
 <td>Undergraduate AI Researcher</td>
 <td>May '25 – Present</td>
 <td>AI & Agentic Systems</td>
-<td>🧪 <b>30%+</b> process efficiency</td>
+<td>💠 <b>30%+</b> process efficiency</td>
 </tr>
 <tr>
 <td><b>⚡ ASME KIIT</b></td>
 <td>R&D Member — EV & Robotics</td>
 <td>May '25 – Sep '25</td>
 <td>Mechanical & EV R&D</td>
-<td>⚡ <b>~20%</b> faster prototyping</td>
+<td>💠 <b>~20%</b> faster prototyping</td>
 </tr>
 <tr>
 <td><b>🏭 TATA STEEL</b></td>
 <td>Backend Developer Intern</td>
 <td>Jul '25 – Aug '25</td>
 <td>Enterprise Backend</td>
-<td>⚡ <b>~25%</b> faster data access</td>
+<td>💠 <b>~25%</b> faster data access</td>
 </tr>
 <tr>
 <td><b>🏭 TATA STEEL</b></td>
 <td>Data Analyst Intern</td>
 <td>May '24 – Jun '24</td>
 <td>Data Analysis</td>
-<td>📊 <b>~30%</b> faster reporting</td>
+<td>💠 <b>~30%</b> faster reporting</td>
 </tr>
 <tr>
 <td><b>💹 FAXIS</b></td>
 <td>Full Stack Developer Intern</td>
 <td>Jul '25 – Sep '25</td>
 <td>Fintech Web Dev</td>
-<td>⚡ <b>~25%</b> faster page load</td>
+<td>💠 <b>~25%</b> faster page load</td>
 </tr>
 </table>
-
----
-
-<div align="center">
-
-## ✦ GITHUB STATS ✦
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruvtara108&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=FFD700&text_color=ffffff&icon_color=FFD700&border_color=FFD700&count_private=true&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvtara108&layout=donut&theme=dark&bg_color=0d0d0d&title_color=FFD700&text_color=ffffff&border_color=FFD700"/>
-
-</div>
 
 ---
 
@@ -362,7 +359,7 @@ class Dhruv:
 
 ## ✦ CS FOUNDATIONS ✦
 
-`⚡ DSA` &nbsp; `⚡ OOP` &nbsp; `⚡ DBMS` &nbsp; `⚡ OS` &nbsp; `⚡ Computer Networks` &nbsp; `⚡ COA` &nbsp; `⚡ System Design` &nbsp; `⚡ CD`
+`💠 DSA` &nbsp; `💠 OOP` &nbsp; `💠 DBMS` &nbsp; `💠 OS` &nbsp; `💠 Computer Networks` &nbsp; `💠 COA` &nbsp; `💠 System Design` &nbsp; `💠 CD`
 
 </div>
 
@@ -372,12 +369,12 @@ class Dhruv:
 
 ## ✦ CONNECT WITH ME ✦
 
-[![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=black&labelColor=1a1a1a)](mailto:mishradhruv257@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-5K%2B_Followers-FFD700?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=1a1a1a)](https://www.linkedin.com/in/dhruv-01352a279/)
-[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=1a1a1a)](https://github.com/Dhruvtara108)
+[![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-A8D8EA?style=for-the-badge&logo=gmail&logoColor=0d1b2a&labelColor=0d1b2a)](mailto:mishradhruv257@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-5K%2B_Followers-A8D8EA?style=for-the-badge&logo=linkedin&logoColor=0d1b2a&labelColor=0d1b2a)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-A8D8EA?style=for-the-badge&logo=github&logoColor=0d1b2a&labelColor=0d1b2a)](https://github.com/Dhruvtara108)
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFD700,1a1a1a&height=130&section=footer&text=Researching+AI+%7C+Building+Robots+%7C+Engineering+Scale&fontSize=15&fontColor=ffffff&fontAlignY=65&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1b2a,0a0a0a&height=130&section=footer&text=Researching+AI+%7C+Building+Robots+%7C+Engineering+Scale&fontSize=15&fontColor=A8D8EA&fontAlignY=65&animation=twinkling"/>
 
 </div>
