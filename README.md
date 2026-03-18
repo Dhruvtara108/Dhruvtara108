@@ -1,413 +1,380 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0a0a0a&height=3"/>
+<!-- ANIMATED WAVE HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a,1a1a1a&height=80&section=header"/>
+
+<!-- CUSTOM TECHY NAME -->
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=900&size=72&duration=99999&pause=999999&color=FFFFFF&center=true&vCenter=true&width=900&height=120&lines=DHRUV" alt="DHRUV"/>
+
+<!-- GLOWING SUBTITLE -->
+<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=22&duration=99999&pause=999999&color=AAAAAA&center=true&vCenter=true&width=800&height=40&lines=Software+Engineer+%7C+AI+Systems+Builder+%7C+Robotics+Researcher" alt="subtitle"/>
 
 <br/>
 
-<!-- NAME — clean, bold, professional -->
-<img src="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=80&duration=99999&pause=999999&color=FFFFFF&center=true&vCenter=true&width=900&height=110&lines=DHRUV" alt="DHRUV"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=400&size=16&duration=99999&pause=999999&color=888888&center=true&vCenter=true&width=900&height=30&lines=Software+Engineer+·+AI+Systems+Builder+·+Robotics+Researcher" alt="subtitle"/>
-
-<br/><br/>
-
-<!-- DIVIDER -->
-<img width="60%" src="https://capsule-render.vercel.app/api?type=rect&color=222222&height=1"/>
+<!-- TYPING ANIMATION -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=18&pause=1000&color=FFFFFF&center=true&vCenter=true&width=750&lines=🤖+AI+Systems+%26+Robotics+Researcher;⚙️+Backend+%26+Full-Stack+Engineer;🔬+Passionate+Researcher+%40+KIIT;🚀+Building+Intelligent+Autonomous+Systems;🧠+Agentic+AI+%7C+Embedded+Systems+%7C+R%26D)](https://git.io/typing-svg)
 
 <br/>
 
 <!-- BADGES -->
-![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=ffffff&style=flat-square&label=profile+views&labelColor=111111)
-&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn_·_5K%2B_Followers-0a0a0a?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-01352a279/)
-&nbsp;&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub_·_Dhruvtara108-0a0a0a?style=flat-square&logo=github&logoColor=white)](https://github.com/Dhruvtara108)
-&nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/mishradhruv257%40gmail.com-0a0a0a?style=flat-square&logo=gmail&logoColor=white)](mailto:mishradhruv257@gmail.com)
-
-<br/>
+![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=ffffff&style=for-the-badge&label=PROFILE+VIEWS&labelColor=111111)
+[![LinkedIn](https://img.shields.io/badge/5K%2B_FOLLOWERS-LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=111111)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-ffffff?style=for-the-badge&logo=github&logoColor=000000&labelColor=111111)](https://github.com/Dhruvtara108)
 
 </div>
 
-<br/>
-
 ---
+
+<div align="center">
+
+## ✦ ABOUT ME ✦
+
+</div>
 
 ```python
 class Dhruv:
-    role        = "Software Engineer  ·  AI/Robotics Researcher"
-    university  = "KIIT University, B.Tech CSE — 2023 to Present"
-    location    = "Bhubaneswar, India"
+    def __init__(self):
+        self.name        = "Dhruv"
+        self.role        = "Software Engineer & AI/Robotics Researcher"
+        self.university  = "KIIT University — B.Tech CSE (2023–Present)"
+        self.location    = "Bhubaneswar, India 🇮🇳"
+        self.email       = "mishradhruv257@gmail.com"
+        self.linkedin    = "linkedin.com/in/dhruv-01352a279"
+        self.github      = "github.com/Dhruvtara108"
 
-    research    = ["Autonomous Robotics", "Agentic AI", "Embedded Systems", "Intelligent Automation"]
-    building    = ["Scalable AI Pipelines", "Autonomous Robots", "Backend Systems", "Dev Tools"]
+    @property
+    def research_interests(self):
+        return [
+            "🔬  Autonomous Robotics & Embedded Systems",
+            "🧠  Agentic AI & Intelligent Automation",
+            "⚡  AI-Driven Backend Architectures",
+            "🛸  Human-Robot Interaction & Sensor Systems",
+        ]
+
+    @property
+    def currently(self):
+        return [
+            "📡  Researching AI automation & agentic workflows",
+            "🤖  Prototyping autonomous robotics systems",
+            "🚀  Building scalable AI-powered platforms",
+            "📝  Exploring AI startups & developer tooling",
+        ]
 ```
 
 ---
 
-<br/>
+<div align="center">
 
-## &nbsp;&nbsp;`01` &nbsp; Research Timeline
+## ✦ RESEARCH TIMELINE ✦
 
-<br/>
+</div>
 
 ```
-  Sep 2024                                                      Present
-  ─────────────────────────────────────────────────────────────────────
+ 2024 ──────────────────────────────────────────────────────── 2025+
 
-  [ KSRC · KIIT ]    [ ASME KIIT ]    [ Tata Steel ]    [ UiPath KIIT ]
-  Robotics R&D  ───▶  EV & Mech  ───▶  Backend Eng  ───▶  AI Research
-  Delivery &          Design &         ASP.NET · SQL       Agentic AI
-  Surveillance        CAD · Fusion     Cloud Pipelines     Automation
-  Robots              360 · Solid                          Workflows
-
-  ~70% task           ~20% faster      ~25% faster         30%+ process
-  automation          prototyping      data access         efficiency
+ [Sep'24]            [May'25]        [Jul'25]      [May'25–Now]
+    │                   │               │                │
+ 🦾 KSRC            ⚡ ASME KIIT    🏭 TATA STEEL    🤖 UiPath
+ Robotics R&D       EV & Robotics   Backend Eng.    AI Research
+ Autonomous         Design & CAD    ASP.NET+SQL     Agentic AI
+ Robot Protos       R&D Prototypes  Cloud Pipelines  Automation
+    │                   │               │                │
+ ~70% Task          ~20% Faster     ~25% Faster      30%+ Process
+ Automation         Prototyping     Data Access      Efficiency
 ```
-
-<br/>
 
 ---
 
-<br/>
+<div align="center">
 
-## &nbsp;&nbsp;`02` &nbsp; Tech Stack
+## ✦ TECH ARSENAL ✦
 
-<br/>
+</div>
 
-<table>
+<table align="center">
 <tr>
-<td valign="top" width="25%">
+<td align="center" width="200">
 
-**Languages**
-
-```
-Python
-C / C++
-JavaScript
-C#
-MATLAB
-```
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=ffffff)
+![C++](https://img.shields.io/badge/C++-111111?style=for-the-badge&logo=cplusplus&logoColor=ffffff)
+![C](https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=ffffff)
+![C#](https://img.shields.io/badge/C%23-111111?style=for-the-badge&logo=csharp&logoColor=ffffff)
+![MATLAB](https://img.shields.io/badge/MATLAB-111111?style=for-the-badge&logo=mathworks&logoColor=ffffff)
 
 </td>
-<td valign="top" width="25%">
+<td align="center" width="200">
 
-**Backend**
-
-```
-FastAPI
-Node.js
-ASP.NET Core
-REST APIs
-MVC Architecture
-```
+### ⚙️ Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=ffffff)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js&logoColor=ffffff)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-111111?style=for-the-badge&logo=dotnet&logoColor=ffffff)
+![REST APIs](https://img.shields.io/badge/REST_APIs-111111?style=for-the-badge&logo=fastapi&logoColor=ffffff)
 
 </td>
-<td valign="top" width="25%">
+<td align="center" width="200">
 
-**Frontend**
-
-```
-React 19
-HTML / CSS
-Shadcn UI
-Radix UI
-Zod
-```
-
-</td>
-<td valign="top" width="25%">
-
-**Data & Cloud**
-
-```
-SQL Server
-MongoDB
-Google BigQuery
-GCP · Vercel
-Docker · Linux
-```
+### 🌐 Frontend
+![React](https://img.shields.io/badge/React_19-111111?style=for-the-badge&logo=react&logoColor=ffffff)
+![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge&logo=html5&logoColor=ffffff)
+![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3&logoColor=ffffff)
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-111111?style=for-the-badge&logo=shadcnui&logoColor=ffffff)
 
 </td>
 </tr>
 <tr>
-<td valign="top" width="25%">
+<td align="center" width="200">
 
-**AI & Automation**
-
-```
-ML Systems
-Agentic Workflows
-Generative AI
-UiPath Studio
-```
+### 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-111111?style=for-the-badge&logo=mongodb&logoColor=ffffff)
+![SQL Server](https://img.shields.io/badge/SQL_Server-111111?style=for-the-badge&logo=microsoftsqlserver&logoColor=ffffff)
+![BigQuery](https://img.shields.io/badge/BigQuery-111111?style=for-the-badge&logo=googlebigquery&logoColor=ffffff)
 
 </td>
-<td valign="top" width="25%">
+<td align="center" width="200">
 
-**Robotics**
-
-```
-Arduino
-Raspberry Pi
-Sensor Integration
-Circuit Design
-```
+### ☁️ Cloud & Tools
+![GCP](https://img.shields.io/badge/GCP-111111?style=for-the-badge&logo=googlecloud&logoColor=ffffff)
+![Docker](https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=ffffff)
+![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=ffffff)
+![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=ffffff)
 
 </td>
-<td valign="top" width="25%">
+<td align="center" width="200">
 
-**CAD & Design**
-
-```
-Fusion 360
-Blender
-SolidWorks
-Reverse Engineering
-```
-
-</td>
-<td valign="top" width="25%">
-
-**CS Core**
-
-```
-DSA · OOP
-OS · DBMS
-Computer Networks
-System Design
-```
+### 🤖 AI & Robotics
+![UiPath](https://img.shields.io/badge/UiPath-111111?style=for-the-badge&logo=uipath&logoColor=ffffff)
+![Arduino](https://img.shields.io/badge/Arduino-111111?style=for-the-badge&logo=arduino&logoColor=ffffff)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-111111?style=for-the-badge&logo=raspberrypi&logoColor=ffffff)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-111111?style=for-the-badge&logo=autodesk&logoColor=ffffff)
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
+
+<div align="center">
+
+## ✦ SKILL PROFICIENCY ✦
+
+</div>
+
+```
+  Python           ████████████████████  95%
+  C / C++          ████████████████░░░░  80%
+  JavaScript       ████████████████░░░░  80%
+  React            ███████████████░░░░░  75%
+  FastAPI          ████████████████░░░░  80%
+  Node.js          ██████████████░░░░░░  70%
+  ASP.NET Core     █████████████░░░░░░░  65%
+  SQL / MongoDB    ████████████████░░░░  80%
+  AI/ML Systems    ████████████████░░░░  80%
+  Robotics & CAD   ██████████████░░░░░░  70%
+  UiPath / RPA     █████████████░░░░░░░  65%
+  DSA              ████████████████░░░░  80%
+```
 
 ---
 
-<br/>
+<div align="center">
 
-## &nbsp;&nbsp;`03` &nbsp; Skill Proficiency
+## ✦ FEATURED PROJECTS ✦
 
-<br/>
+</div>
 
-```
-  Python          ████████████████████░   95%
-  C / C++         ████████████████░░░░░   80%
-  JavaScript      ████████████████░░░░░   80%
-  React           ███████████████░░░░░░   75%
-  FastAPI         ████████████████░░░░░   80%
-  Node.js         ██████████████░░░░░░░   70%
-  ASP.NET Core    █████████████░░░░░░░░   65%
-  SQL / MongoDB   ████████████████░░░░░   80%
-  AI / ML         ████████████████░░░░░   80%
-  Robotics & CAD  ██████████████░░░░░░░   70%
-  UiPath / RPA    █████████████░░░░░░░░   65%
-  DSA             ████████████████░░░░░   80%
-```
-
-<br/>
-
----
-
-<br/>
-
-## &nbsp;&nbsp;`04` &nbsp; Projects
-
-<br/>
-
-<table>
+<table align="center">
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### NexusHire &nbsp;—&nbsp; AI Hiring Copilot
-*Agentic AI recruitment intelligence platform*
+### 🧠 NexusHire — AI Hiring Copilot
+> *Agentic AI-powered recruitment intelligence*
 
-`FastAPI` &nbsp; `Python` &nbsp; `React` &nbsp; `Agentic Workflows`
+**Stack:**
+`FastAPI` · `Python` · `React` · `Agentic Workflows`
 
 | Feature | Status |
-|---|:---:|
-| Candidate Skill Extraction | ✓ |
-| GitHub Activity Analysis | ✓ |
-| AI Authenticity Scoring | ✓ |
-| Recruiter Analytics Dashboard | ✓ |
+|---|---|
+| 🎯 Candidate Skill Extraction | ✅ Live |
+| 📊 GitHub Activity Analysis | ✅ Live |
+| 🔐 AI Authenticity Scoring | ✅ Live |
+| 📈 Recruiter Analytics Dashboard | ✅ Live |
 
-RESTful pipelines processing resumes, GitHub and LinkedIn data into structured AI-evaluated hiring insights with automated screening.
+> RESTful pipelines processing resumes, GitHub & LinkedIn data into AI-evaluated hiring insights
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### Arogyam &nbsp;—&nbsp; AI Healthcare Platform
-*Smart triage, emergency response & diagnosis*
+### 🏥 Arogyam — AI Healthcare Platform
+> *Smart triage, emergency response & diagnosis*
 
-`React.js` &nbsp; `Node.js` &nbsp; `WhatsApp API` &nbsp; `AI`
+**Stack:**
+`React.js` · `Node.js` · `WhatsApp API` · `AI Models`
 
 | Feature | Status |
-|---|:---:|
-| AI Symptom Analysis | ✓ |
-| Emergency Alert < 1 min | ✓ |
-| Image-Based Diagnosis | ✓ |
-| Hospital / Nurse Notification | ✓ |
+|---|---|
+| 💬 AI Symptom Analysis | ✅ Live |
+| 🚨 Emergency Alert (< 1 min) | ✅ Live |
+| 📷 Image-Based Diagnosis | ✅ Live |
+| 🏥 Hospital/Nurse Notification | ✅ Live |
 
-**🏆 Smart India Hackathon 2025 — Round 2 Selected**
+> 🏆 **Smart India Hackathon 2025 — Round 2 Selected**
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### Autonomous Delivery & Surveillance Robot
-*Embedded AI robotics — hostels & societies*
+### 🚁 Autonomous Delivery & Surveillance Robot
+> *Embedded AI robotics for hostels & societies*
 
-`Arduino` &nbsp; `Raspberry Pi` &nbsp; `Python` &nbsp; `Fusion 360`
+**Stack:**
+`Arduino` · `Raspberry Pi` · `Python` · `Fusion 360`
 
 | Component | Detail |
 |---|---|
-| Navigation | Sensor-driven autonomous |
-| Vision | Camera + proximity sensors |
-| Monitoring | Temperature regulation |
-| Control | Mobile app interface |
+| 🧭 Navigation | Sensor-driven autonomous |
+| 📷 Vision | Camera + proximity sensors |
+| 🌡️ Monitoring | Temperature regulation |
+| 📱 Control | Mobile app interface |
 
-~70% task automation achieved in prototype simulations.
+> ~70% task automation achieved in prototype simulations
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### ICU Sanitation Robot &nbsp;*(Reverse Eng.)*
-*Contactless hospital-grade cleaning system*
+### 🏥 ICU Sanitation Robot *(Reverse Eng.)*
+> *Contactless hospital-grade cleaning system*
 
-`Embedded Systems` &nbsp; `CAD` &nbsp; `AI Safety Models`
+**Stack:**
+`Embedded Systems` · `CAD` · `AI Safety Models`
 
 | Feature | Detail |
 |---|---|
-| UV Sanitation | Contactless ICU cleaning |
-| AI Navigation | Contamination avoidance |
-| Reverse Eng. | Commercial system teardown |
-| App Integration | Remote monitoring |
+| ☢️ UV Sanitation | Contactless ICU cleaning |
+| 🤖 AI Navigation | Contamination avoidance |
+| 🔬 Reverse Eng. | Commercial system analysis |
+| 📱 App Integration | Remote monitoring |
 
-Designed to minimize human interaction in ICU environments.
+> Designed to minimize human interaction in critical zones
 
 </td>
 </tr>
 </table>
 
-<br/>
-
 ---
 
-<br/>
+<div align="center">
 
-## &nbsp;&nbsp;`05` &nbsp; Experience
+## ✦ RESEARCH & WORK EXPERIENCE ✦
 
-<br/>
+</div>
 
-<table width="100%">
+<table align="center">
 <tr>
-<th align="left">Organisation</th>
-<th align="left">Role</th>
-<th align="left">Period</th>
-<th align="left">Impact</th>
+<th>🏢 Organisation</th>
+<th>🎯 Role</th>
+<th>📅 Duration</th>
+<th>🔬 Domain</th>
+<th>🚀 Impact</th>
 </tr>
-<tr><td colspan="4"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=1"/></td></tr>
 <tr>
-<td><b>KIIT Research Centre</b></td>
+<td><b>KIIT Research Centre (KSRC)</b></td>
 <td>Research Assistant — Robotics R&D</td>
 <td>Sep '24 – Jan '25</td>
+<td>Robotics & Embedded</td>
 <td><b>~70%</b> task automation</td>
 </tr>
 <tr>
-<td><b>UiPath KIIT Community</b></td>
+<td><b>UiPath Student Community</b></td>
 <td>Undergraduate AI Researcher</td>
 <td>May '25 – Present</td>
+<td>AI & Agentic Systems</td>
 <td><b>30%+</b> process efficiency</td>
 </tr>
 <tr>
 <td><b>ASME KIIT</b></td>
 <td>R&D Member — EV & Robotics</td>
 <td>May '25 – Sep '25</td>
+<td>Mechanical & EV R&D</td>
 <td><b>~20%</b> faster prototyping</td>
 </tr>
 <tr>
 <td><b>Tata Steel</b></td>
 <td>Backend Developer Intern</td>
 <td>Jul '25 – Aug '25</td>
+<td>Enterprise Backend</td>
 <td><b>~25%</b> faster data access</td>
 </tr>
 <tr>
 <td><b>Tata Steel</b></td>
 <td>Data Analyst Intern</td>
 <td>May '24 – Jun '24</td>
+<td>Data Analysis</td>
 <td><b>~30%</b> faster reporting</td>
 </tr>
 <tr>
 <td><b>Faxis</b></td>
 <td>Full Stack Developer Intern</td>
 <td>Jul '25 – Sep '25</td>
+<td>Fintech Web Dev</td>
 <td><b>~25%</b> faster page load</td>
 </tr>
 </table>
 
-<br/>
-
 ---
-
-<br/>
-
-## &nbsp;&nbsp;`06` &nbsp; Certifications
-
-<br/>
-
-| Certification | Issuer | Year |
-|---|---|---|
-| Introduction to Automation | UiPath | 2025 |
-| Software Engineering Job Simulation | Electronic Arts (EA) | 2025 |
-| AI for Beginners | HP | 2025 |
-
-<br/>
-
----
-
-<br/>
-
-## &nbsp;&nbsp;`07` &nbsp; Achievement
-
-<br/>
-
-```
-  ┌─────────────────────────────────────────────────────────────────┐
-  │                                                                 │
-  │   Smart India Hackathon 2025  —  Round 2 Selection              │
-  │   Ministry of Education, Government of India  ·  Nov 2025       │
-  │   Project : Arogyam — AI Healthcare Platform                    │
-  │                                                                 │
-  └─────────────────────────────────────────────────────────────────┘
-```
-
-<br/>
-
----
-
-<br/>
 
 <div align="center">
 
-<img width="40%" src="https://capsule-render.vercel.app/api?type=rect&color=222222&height=1"/>
+## ✦ CERTIFICATIONS ✦
 
-<br/><br/>
+| 🏅 Certification | 🏢 Issuer | 📅 Date |
+|---|---|---|
+| Introduction to Automation | UiPath | May '25 |
+| Software Engineering Job Simulation | Electronic Arts (EA) | May '25 |
+| AI for Beginners | HP | Aug '25 |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-01352a279/)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhruvtara108)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mishradhruv257@gmail.com)
+</div>
 
-<br/><br/>
+---
 
-<img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=300&size=13&duration=99999&pause=999999&color=444444&center=true&vCenter=true&width=600&height=25&lines=Researching+AI+·+Building+Robots+·+Engineering+Scale" alt="footer"/>
+<div align="center">
+
+## ✦ ACHIEVEMENT ✦
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  🏆  SMART INDIA HACKATHON 2025 — ROUND 2 SELECTION              ║
+║  Ministry of Education, Government of India  ·  Nov '25          ║
+║  Project: Arogyam — AI Healthcare Platform                       ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ CS FOUNDATIONS ✦
+
+`DSA` &nbsp; `OOP` &nbsp; `DBMS` &nbsp; `OS` &nbsp; `Computer Networks` &nbsp; `COA` &nbsp; `System Design` &nbsp; `CD`
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ CONNECT ✦
+
+[![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-ffffff?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=111111)](mailto:mishradhruv257@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-5K%2B_Followers-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=111111)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-ffffff?style=for-the-badge&logo=github&logoColor=000000&labelColor=111111)](https://github.com/Dhruvtara108)
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0a0a0a&height=3"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1a1a1a,0a0a0a&height=120&section=footer&text=Researching+AI+%7C+Building+Robots+%7C+Engineering+Scale&fontSize=15&fontColor=ffffff&fontAlignY=65"/>
 
 </div>
