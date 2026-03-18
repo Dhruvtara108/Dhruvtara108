@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <rect width="900" height="160" fill="#0a0a0a"/>
+  <text
+    x="450" y="100"
+    font-family="'Courier New', 'Lucida Console', monospace"
+    font-size="88"
+    font-weight="700"
+    text-anchor="middle"
+    letter-spacing="20"
+    fill="#ffffff">DHRUV</text>
+  <text
+    x="450" y="135"
+    font-family="'Courier New', 'Lucida Console', monospace"
+    font-size="14"
+    font-weight="400"
+    text-anchor="middle"
+    letter-spacing="5"
+    fill="#888888">SOFTWARE ENGINEER  ·  AI SYSTEMS  ·  ROBOTICS RESEARCHER</text>
+</svg>

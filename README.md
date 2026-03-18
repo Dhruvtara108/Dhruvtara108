@@ -1,18 +1,7 @@
 <div align="center">
 
-<!-- ANIMATED WAVE HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a,1a1a1a&height=80&section=header"/>
-
-<!-- CUSTOM TECHY NAME -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=900&size=72&duration=99999&pause=999999&color=FFFFFF&center=true&vCenter=true&width=900&height=120&lines=DHRUV" alt="DHRUV"/>
-
-<!-- GLOWING SUBTITLE -->
-<img src="https://readme-typing-svg.demolab.com?font=Rajdhani&weight=700&size=22&duration=99999&pause=999999&color=AAAAAA&center=true&vCenter=true&width=800&height=40&lines=Software+Engineer+%7C+AI+Systems+Builder+%7C+Robotics+Researcher" alt="subtitle"/>
-
-<br/>
-
-<!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=18&pause=1000&color=FFFFFF&center=true&vCenter=true&width=750&lines=🤖+AI+Systems+%26+Robotics+Researcher;⚙️+Backend+%26+Full-Stack+Engineer;🔬+Passionate+Researcher+%40+KIIT;🚀+Building+Intelligent+Autonomous+Systems;🧠+Agentic+AI+%7C+Embedded+Systems+%7C+R%26D)](https://git.io/typing-svg)
+<!-- STATIC INSTANT-LOAD HEADER — upload header.svg to your repo root -->
+<img width="100%" src="https://raw.githubusercontent.com/Dhruvtara108/Dhruvtara108/main/header.svg" alt="DHRUV — Software Engineer · AI Systems · Robotics Researcher"/>
 
 <br/>
 
@@ -370,11 +359,11 @@ class Dhruv:
 ## ✦ CONNECT ✦
 
 [![Email](https://img.shields.io/badge/EMAIL-mishradhruv257%40gmail.com-ffffff?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=111111)](mailto:mishradhruv257@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-5K%2B_Followers-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=111111)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-5K%2B_Followers-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000&logoColor=000000&labelColor=111111)](https://www.linkedin.com/in/dhruv-01352a279/)
 [![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-ffffff?style=for-the-badge&logo=github&logoColor=000000&labelColor=111111)](https://github.com/Dhruvtara108)
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1a1a1a,0a0a0a&height=120&section=footer&text=Researching+AI+%7C+Building+Robots+%7C+Engineering+Scale&fontSize=15&fontColor=ffffff&fontAlignY=65"/>
+*Researching AI · Building Robots · Engineering Scale*
 
 </div>
