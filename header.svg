@@ -7,7 +7,233 @@
       <stop offset="0%" stop-color="#000814"/>
       <stop offset="100%" stop-color="#001533"/>
     </linearGradient>
-    <filter id="gw">
+    <filter id="gw"><svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Dhruv - Pixel Art GitHub Header</title>
+<desc>Retro pixel game scene - Software Engineer, AI and Robotics</desc>
+<defs>
+<style>
+.px{shape-rendering:crispEdges}
+@keyframes walk1{0%,49%{transform:translateY(0)}50%,100%{transform:translateY(-2px)}}
+@keyframes walk2{0%,49%{transform:translateY(-2px)}50%,100%{transform:translateY(0)}}
+@keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes float2{0%,100%{transform:translateY(-3px)}50%{transform:translateY(3px)}}
+@keyframes cloud1{0%{transform:translateX(0)}100%{transform:translateX(-900px)}}
+@keyframes cloud2{0%{transform:translateX(200px)}100%{transform:translateX(-700px)}}
+@keyframes blink{0%,89%,100%{opacity:1}90%,99%{opacity:0}}
+@keyframes score{0%,80%{opacity:0;transform:translateY(0)}85%{opacity:1}100%{opacity:0;transform:translateY(-20px)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+</style>
+</defs>
+
+<!-- SKY -->
+<rect width="900" height="200" fill="#1a1a2e" class="px"/>
+
+<!-- STARS -->
+<rect x="50" y="10" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/></rect>
+<rect x="120" y="25" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/></rect>
+<rect x="200" y="8" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.5s" repeatCount="indefinite"/></rect>
+<rect x="350" y="15" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.8s" repeatCount="indefinite"/></rect>
+<rect x="500" y="5" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.8;0.4;0.8" dur="2.2s" repeatCount="indefinite"/></rect>
+<rect x="650" y="20" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.6s" repeatCount="indefinite"/></rect>
+<rect x="780" y="12" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.1s" repeatCount="indefinite"/></rect>
+<rect x="850" y="30" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.9;0.5;0.9" dur="1.9s" repeatCount="indefinite"/></rect>
+<rect x="420" y="35" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="720" y="42" width="2" height="2" fill="#fff" class="px"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.3s" repeatCount="indefinite"/></rect>
+
+<!-- SCROLLING MOUNTAINS -->
+<g style="animation:cloud1 25s linear infinite">
+<polygon points="0,120 60,50 120,120" fill="#16213e" class="px"/>
+<polygon points="80,120 150,40 220,120" fill="#0f3460" class="px"/>
+<polygon points="200,120 270,60 340,120" fill="#16213e" class="px"/>
+<polygon points="320,120 400,35 480,120" fill="#0f3460" class="px"/>
+<polygon points="450,120 520,55 590,120" fill="#16213e" class="px"/>
+<polygon points="570,120 650,42 730,120" fill="#0f3460" class="px"/>
+<polygon points="700,120 780,50 860,120" fill="#16213e" class="px"/>
+<polygon points="830,120 900,60 970,120" fill="#0f3460" class="px"/>
+<polygon points="900,120 960,50 1020,120" fill="#16213e" class="px"/>
+<polygon points="980,120 1050,40 1120,120" fill="#0f3460" class="px"/>
+<polygon points="1100,120 1170,60 1240,120" fill="#16213e" class="px"/>
+<polygon points="1220,120 1300,35 1380,120" fill="#0f3460" class="px"/>
+</g>
+
+<!-- CLOUDS -->
+<g style="animation:cloud1 35s linear infinite">
+<rect x="80" y="30" width="48" height="12" fill="#2a2a4a" class="px" rx="2"/>
+<rect x="72" y="36" width="64" height="12" fill="#2a2a4a" class="px"/>
+<rect x="400" y="20" width="56" height="14" fill="#2a2a4a" class="px" rx="2"/>
+<rect x="392" y="26" width="72" height="14" fill="#2a2a4a" class="px"/>
+<rect x="700" y="35" width="44" height="12" fill="#2a2a4a" class="px" rx="2"/>
+<rect x="694" y="41" width="56" height="12" fill="#2a2a4a" class="px"/>
+<rect x="980" y="30" width="48" height="12" fill="#2a2a4a" class="px" rx="2"/>
+<rect x="972" y="36" width="64" height="12" fill="#2a2a4a" class="px"/>
+<rect x="1300" y="20" width="56" height="14" fill="#2a2a4a" class="px" rx="2"/>
+</g>
+<g style="animation:cloud2 50s linear infinite">
+<rect x="200" y="45" width="40" height="10" fill="#2a2a4a" class="px" rx="2"/>
+<rect x="194" y="49" width="52" height="12" fill="#2a2a4a" class="px"/>
+<rect x="580" y="28" width="52" height="12" fill="#2a2a4a" class="px" rx="2"/>
+<rect x="574" y="34" width="64" height="14" fill="#2a2a4a" class="px"/>
+</g>
+
+<!-- GROUND -->
+<rect x="0" y="172" width="900" height="28" fill="#2d5a1b" class="px"/>
+<rect x="0" y="172" width="900" height="6" fill="#4a7c2f" class="px"/>
+<rect x="0" y="178" width="900" height="2" fill="#3d6b23" class="px"/>
+
+<!-- PLATFORM 1 -->
+<rect x="180" y="130" width="100" height="12" fill="#4a7c2f" class="px"/>
+<rect x="180" y="130" width="100" height="4" fill="#6aaa42" class="px"/>
+<rect x="180" y="134" width="100" height="2" fill="#5a9235" class="px"/>
+<rect x="192" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="216" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="240" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="264" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+
+<!-- PLATFORM 2 -->
+<rect x="380" y="110" width="120" height="12" fill="#4a7c2f" class="px"/>
+<rect x="380" y="110" width="120" height="4" fill="#6aaa42" class="px"/>
+<rect x="380" y="114" width="120" height="2" fill="#5a9235" class="px"/>
+<rect x="390" y="116" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="414" y="116" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="438" y="116" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="462" y="116" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="486" y="116" width="6" height="6" fill="#3d6b23" class="px"/>
+
+<!-- PLATFORM 3 -->
+<rect x="600" y="130" width="90" height="12" fill="#4a7c2f" class="px"/>
+<rect x="600" y="130" width="90" height="4" fill="#6aaa42" class="px"/>
+<rect x="600" y="134" width="90" height="2" fill="#5a9235" class="px"/>
+<rect x="610" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="634" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+<rect x="658" y="136" width="18" height="6" fill="#3d6b23" class="px"/>
+
+<!-- COINS above platform 2 -->
+<g style="animation:float1 1.5s ease-in-out infinite">
+<rect x="418" y="88" width="12" height="14" fill="#ffd700" class="px" rx="2"/>
+<rect x="420" y="86" width="8" height="18" fill="#ffd700" class="px"/>
+<rect x="421" y="90" width="6" height="10" fill="#ffaa00" class="px"/>
+</g>
+<g style="animation:float1 1.5s ease-in-out infinite;animation-delay:0.3s">
+<rect x="440" y="88" width="12" height="14" fill="#ffd700" class="px" rx="2"/>
+<rect x="442" y="86" width="8" height="18" fill="#ffd700" class="px"/>
+<rect x="443" y="90" width="6" height="10" fill="#ffaa00" class="px"/>
+</g>
+<g style="animation:float1 1.5s ease-in-out infinite;animation-delay:0.6s">
+<rect x="462" y="88" width="12" height="14" fill="#ffd700" class="px" rx="2"/>
+<rect x="464" y="86" width="8" height="18" fill="#ffd700" class="px"/>
+<rect x="465" y="90" width="6" height="10" fill="#ffaa00" class="px"/>
+</g>
+
+<!-- MAIN ROBOT CHARACTER -->
+<g style="animation:walk1 0.4s steps(1) infinite">
+<g transform="translate(80,138)">
+<rect x="4" y="12" width="20" height="18" fill="#00d4aa" class="px"/>
+<rect x="2" y="14" width="24" height="14" fill="#00d4aa" class="px"/>
+<rect x="8" y="16" width="12" height="8" fill="#00aa88" class="px"/>
+<rect x="10" y="18" width="8" height="4" fill="#00ff88" class="px"/>
+<rect x="6" y="2" width="16" height="14" fill="#00d4aa" class="px"/>
+<rect x="4" y="4" width="20" height="10" fill="#00d4aa" class="px"/>
+<rect x="8" y="6" width="4" height="4" fill="#fff" class="px"/>
+<rect x="16" y="6" width="4" height="4" fill="#fff" class="px"/>
+<rect x="9" y="7" width="2" height="2" fill="#00ffff" class="px"><animate attributeName="fill" values="#00ffff;#fff;#00ffff" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="17" y="7" width="2" height="2" fill="#00ffff" class="px"><animate attributeName="fill" values="#00ffff;#fff;#00ffff" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="13" y="0" width="2" height="4" fill="#00aa88" class="px"/>
+<rect x="12" y="0" width="4" height="2" fill="#ff4444" class="px"><animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/></rect>
+<rect x="0" y="14" width="4" height="10" fill="#00aa88" class="px"/>
+<rect x="24" y="14" width="4" height="10" fill="#00aa88" class="px"/>
+<rect x="6" y="28" width="6" height="8" fill="#00aa88" class="px"/>
+<rect x="16" y="30" width="6" height="6" fill="#00aa88" class="px"/>
+<rect x="4" y="34" width="8" height="4" fill="#008866" class="px"/>
+<rect x="16" y="34" width="8" height="4" fill="#008866" class="px"/>
+</g>
+</g>
+
+<!-- ENEMY ROBOT on platform 1 -->
+<g transform="translate(215,94)" style="animation:float2 2s ease-in-out infinite">
+<rect x="4" y="12" width="18" height="16" fill="#ff4444" class="px"/>
+<rect x="2" y="14" width="22" height="12" fill="#ff4444" class="px"/>
+<rect x="5" y="2" width="16" height="12" fill="#ff4444" class="px"/>
+<rect x="3" y="4" width="20" height="8" fill="#ff4444" class="px"/>
+<rect x="7" y="5" width="4" height="3" fill="#fff" class="px"/>
+<rect x="15" y="5" width="4" height="3" fill="#fff" class="px"/>
+<rect x="8" y="5" width="2" height="3" fill="#ff0000" class="px"/>
+<rect x="16" y="5" width="2" height="3" fill="#ff0000" class="px"/>
+<rect x="6" y="0" width="3" height="4" fill="#cc0000" class="px"/>
+<rect x="13" y="0" width="3" height="4" fill="#cc0000" class="px"/>
+<rect x="7" y="15" width="12" height="6" fill="#cc0000" class="px"/>
+<rect x="6" y="26" width="5" height="6" fill="#cc0000" class="px"/>
+<rect x="15" y="26" width="5" height="6" fill="#cc0000" class="px"/>
+</g>
+
+<!-- SMALL BOT on platform 3 -->
+<g transform="translate(628,102)">
+<rect x="2" y="6" width="12" height="10" fill="#9b59b6" class="px"/>
+<rect x="4" y="2" width="8" height="6" fill="#9b59b6" class="px"/>
+<rect x="5" y="3" width="2" height="2" fill="#fff" class="px"/>
+<rect x="9" y="3" width="2" height="2" fill="#fff" class="px"/>
+<rect x="4" y="14" width="3" height="4" fill="#7d3c98" class="px"/>
+<rect x="9" y="14" width="3" height="4" fill="#7d3c98" class="px"/>
+</g>
+
+<!-- POWER UP BOX -->
+<g style="animation:float1 2s ease-in-out infinite;animation-delay:0.5s">
+<rect x="640" y="100" width="24" height="24" fill="#ffd700" class="px"/>
+<rect x="642" y="102" width="20" height="20" fill="#ffaa00" class="px"/>
+<rect x="644" y="108" width="16" height="4" fill="#ffd700" class="px"/>
+<rect x="650" y="104" width="4" height="12" fill="#ffd700" class="px"/>
+<rect x="642" y="100" width="20" height="3" fill="#ffe44d" class="px"/>
+<rect x="640" y="100" width="3" height="24" fill="#ffe44d" class="px"/>
+</g>
+
+<!-- LASER BEAM -->
+<rect x="108" y="154" width="0" height="4" fill="#00ffff" class="px"><animate attributeName="width" values="0;50;50;0" dur="4s" repeatCount="indefinite"/></rect>
+<rect x="108" y="155" width="0" height="2" fill="#fff" class="px" opacity="0.7"><animate attributeName="width" values="0;50;50;0" dur="4s" repeatCount="indefinite"/></rect>
+
+<!-- TREES -->
+<rect x="330" y="148" width="6" height="24" fill="#5a3825" class="px"/>
+<rect x="318" y="128" width="30" height="22" fill="#2d8a2d" class="px"/>
+<rect x="322" y="120" width="22" height="14" fill="#3aaa3a" class="px"/>
+<rect x="326" y="114" width="14" height="10" fill="#44cc44" class="px"/>
+<rect x="758" y="148" width="6" height="24" fill="#5a3825" class="px"/>
+<rect x="746" y="128" width="30" height="22" fill="#2d8a2d" class="px"/>
+<rect x="750" y="120" width="22" height="14" fill="#3aaa3a" class="px"/>
+<rect x="754" y="114" width="14" height="10" fill="#44cc44" class="px"/>
+
+<!-- BUSHES -->
+<rect x="150" y="166" width="20" height="8" fill="#3d8b28" class="px" rx="2"/>
+<rect x="154" y="162" width="12" height="6" fill="#4aaa32" class="px" rx="1"/>
+<rect x="480" y="166" width="24" height="8" fill="#3d8b28" class="px" rx="2"/>
+<rect x="486" y="162" width="12" height="6" fill="#4aaa32" class="px" rx="1"/>
+<rect x="820" y="166" width="18" height="8" fill="#3d8b28" class="px" rx="2"/>
+<rect x="824" y="162" width="10" height="6" fill="#4aaa32" class="px" rx="1"/>
+
+<!-- HUD TOP BAR -->
+<rect x="0" y="0" width="900" height="28" fill="#000" opacity="0.75" class="px"/>
+<rect x="0" y="27" width="900" height="2" fill="#00ff41" class="px"/>
+<!-- HP -->
+<rect x="10" y="8" width="60" height="8" fill="#440000" class="px" rx="1"/>
+<rect x="10" y="8" width="45" height="8" fill="#ff2222" class="px" rx="1"/>
+<rect x="10" y="8" width="15" height="4" fill="#ff6666" class="px"/>
+<text x="75" y="17" font-family="Courier New,monospace" font-size="10" fill="#00ff41" font-weight="bold">HP</text>
+<!-- Score -->
+<text x="200" y="18" font-family="Courier New,monospace" font-size="11" fill="#ffd700" font-weight="bold" text-anchor="middle">SCORE: 04800</text>
+<!-- Name -->
+<text x="450" y="18" font-family="Courier New,monospace" font-size="13" fill="#00ffff" font-weight="bold" text-anchor="middle" letter-spacing="3">D H R U V</text>
+<!-- Level -->
+<text x="700" y="18" font-family="Courier New,monospace" font-size="11" fill="#ffd700" font-weight="bold" text-anchor="middle">LEVEL: MIT-01</text>
+<!-- Lives -->
+<text x="860" y="18" font-family="Courier New,monospace" font-size="11" fill="#00ff41" font-weight="bold">x3 ♥</text>
+
+<!-- BOTTOM STATUS BAR -->
+<rect x="0" y="190" width="900" height="10" fill="#000" opacity="0.7" class="px"/>
+<text x="10" y="198" font-family="Courier New,monospace" font-size="8" fill="#00ff41">[ DUCKIETOWN MIT ]</text>
+<text x="185" y="198" font-family="Courier New,monospace" font-size="8" fill="#ffd700">[ TINYFISH ACCELERATOR ]</text>
+<text x="385" y="198" font-family="Courier New,monospace" font-size="8" fill="#ff6b6b">[ ROBONEXUS WC ]</text>
+<text x="555" y="198" font-family="Courier New,monospace" font-size="8" fill="#00d4aa">[ RED BULL BASEMENT ]</text>
+<text x="740" y="198" font-family="Courier New,monospace" font-size="8" fill="#9b59b6">[ SIH 2025 ]</text>
+<text x="820" y="198" font-family="Courier New,monospace" font-size="8" fill="#ff9944">[ ROSE@ICSE ]</text>
+
+</svg>
       <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
