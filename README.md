@@ -4,7 +4,9 @@
   Pixel Platformer Header · Navy / Black / White Palette
 ═══════════════════════════════════════════════════════════
 -->
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Dhruvtara108/Dhruvtara108/main/header.svg" width="100%">
+</p>
 
 ## ✦ ABOUT ME ✦
 
