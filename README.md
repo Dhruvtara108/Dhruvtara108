@@ -1,130 +1,351 @@
 <!--
 ═══════════════════════════════════════════════════════════
   DHRUV — GitHub Profile README
-  Fast-loading CSS animation header + full 2026 achievements
+  Pixel Platformer Header · Navy / Black / White Palette
 ═══════════════════════════════════════════════════════════
 -->
 
 <div align="center">
 
-<!-- FAST-LOADING CSS ANIMATION HEADER via SVG -->
-<img width="100%" height="200" src="https://raw.githubusercontent.com/Dhruvtara108/Dhruvtara108/main/header.svg" alt="header" onerror="this.style.display='none'"/>
-
-<!-- FALLBACK ANIMATED SVG — renders instantly, no external deps -->
-<svg width="100%" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+<!-- PIXEL PLATFORMER ANIMATION — no external deps, renders instantly -->
+<svg width="100%" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a0a"/>
-      <stop offset="100%" style="stop-color:#111827"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000814"/>
+      <stop offset="100%" stop-color="#001533"/>
     </linearGradient>
-    <!-- Grid line animation -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2a1a" stroke-width="0.5"/>
-    </pattern>
-    <!-- Glow filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="gw">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="glow2">
-      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="gws">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <style>
+      /* ── CHARACTER WALK + JUMP ── */
+      .char{animation:cm 10s linear infinite;}
+      @keyframes cm{
+        0%  {transform:translate(-55px,150px);}
+        13% {transform:translate(168px,150px);}
+        15% {transform:translate(185px,116px);}
+        17% {transform:translate(202px,123px);}
+        38% {transform:translate(355px,123px);}
+        40% {transform:translate(382px,80px);}
+        42% {transform:translate(428px,90px);}
+        60% {transform:translate(650px,90px);}
+        63% {transform:translate(668px,150px);}
+        100%{transform:translate(952px,150px);}
+      }
+      /* ── LEGS alternating step ── */
+      .ll{animation:lw .28s steps(2,end) infinite;}
+      .rl{animation:lw .28s steps(2,end) infinite .14s;}
+      @keyframes lw{from{transform:translateY(0);}to{transform:translateY(4px);}}
+      /* ── ENEMY 1 pacing on Platform 1 ── */
+      .e1{animation:e1a 2.4s ease-in-out infinite;}
+      @keyframes e1a{0%,100%{transform:translate(210px,136px);}50%{transform:translate(248px,136px);}}
+      /* ── ENEMY 2 pacing on Platform 2 ── */
+      .e2{animation:e2a 2.8s ease-in-out infinite;}
+      @keyframes e2a{0%,100%{transform:translate(462px,103px);}50%{transform:translate(516px,103px);}}
+      /* ── COIN float ── */
+      .coins{animation:cf .9s ease-in-out infinite alternate;}
+      @keyframes cf{0%{transform:translateY(0);}100%{transform:translateY(-5px);}}
+      /* ── SCAN LINE ── */
+      .sc{animation:sl 5s linear infinite;}
+      @keyframes sl{from{transform:translateY(-5px);}to{transform:translateY(205px);}}
+      /* ── STAR TWINKLE ── */
+      .s0{animation:tw 2.1s ease-in-out infinite;}
+      .s1{animation:tw 1.8s ease-in-out infinite .45s;}
+      .s2{animation:tw 2.4s ease-in-out infinite .9s;}
+      .s3{animation:tw 1.6s ease-in-out infinite 1.35s;}
+      .s4{animation:tw 2.0s ease-in-out infinite .2s;}
+      .s5{animation:tw 2.6s ease-in-out infinite .7s;}
+      .s6{animation:tw 1.9s ease-in-out infinite 1.1s;}
+      .s7{animation:tw 2.3s ease-in-out infinite 1.7s;}
+      @keyframes tw{0%,100%{opacity:.85;}50%{opacity:.04;}}
+      /* ── TEXT REVEALS ── */
+      .nt{animation:fi .9s ease forwards;}
+      .rt{animation:fi .5s ease 1s forwards;opacity:0;}
+      .dt{animation:fi .5s ease 1.7s forwards;opacity:0;}
+      @keyframes fi{to{opacity:1;}}
+      /* ── STATUS PULSE ── */
+      .pb{animation:pulse 1.8s ease-in-out infinite;}
+      @keyframes pulse{0%,100%{opacity:.35;}50%{opacity:1;}}
+      /* ── BRACKET FLICKER ── */
+      .br1{animation:bf 2s ease-in-out infinite;}
+      .br2{animation:bf 2s ease-in-out infinite 1s;}
+      @keyframes bf{0%,100%{opacity:.55;}50%{opacity:.15;}}
+      /* ── FLAG WAVE ── */
+      .flag{animation:fw 1.2s ease-in-out infinite alternate;}
+      @keyframes fw{0%{transform:skewX(0deg);}100%{transform:skewX(-6deg);}}
+    </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="180" fill="url(#bg)"/>
-  <rect width="900" height="180" fill="url(#grid)" opacity="0.4"/>
+  <!-- ═══ SKY ═══ -->
+  <rect width="900" height="200" fill="url(#sky)"/>
 
-  <!-- Animated scan line -->
-  <rect width="900" height="1" fill="#00ff41" opacity="0.15">
-    <animate attributeName="y" from="0" to="180" dur="3s" repeatCount="indefinite"/>
+  <!-- ═══ SUBTLE SCAN LINE ═══ -->
+  <rect class="sc" width="900" height="1.5" y="0" fill="#3b82f6" opacity="0.06"/>
+
+  <!-- ═══ CRESCENT MOON ═══ -->
+  <circle cx="838" cy="32" r="16" fill="#dbeafe" opacity="0.88"/>
+  <circle cx="845" cy="30" r="14" fill="#000f25" opacity="0.98"/>
+
+  <!-- ═══ STARS ═══ -->
+  <rect class="s0" x="42"  y="9"  width="2" height="2" fill="white"/>
+  <rect class="s1" x="118" y="21" width="2" height="2" fill="white"/>
+  <rect class="s2" x="196" y="8"  width="2" height="2" fill="white"/>
+  <rect class="s3" x="342" y="18" width="2" height="2" fill="white"/>
+  <rect class="s4" x="494" y="6"  width="2" height="2" fill="white"/>
+  <rect class="s5" x="644" y="15" width="2" height="2" fill="white"/>
+  <rect class="s6" x="752" y="10" width="2" height="2" fill="white"/>
+  <rect class="s7" x="892" y="22" width="2" height="2" fill="white"/>
+  <!-- dim 1×1 stars -->
+  <rect x="76"  y="30" width="1" height="1" fill="white" opacity="0.4"/>
+  <rect x="284" y="13" width="1" height="1" fill="white" opacity="0.35"/>
+  <rect x="430" y="25" width="1" height="1" fill="white" opacity="0.45"/>
+  <rect x="570" y="8"  width="1" height="1" fill="white" opacity="0.3"/>
+  <rect x="714" y="38" width="1" height="1" fill="white" opacity="0.4"/>
+
+  <!-- ═══ DISTANT MOUNTAINS ═══ -->
+  <polygon points="0,172   88,96  176,172"  fill="#060e1d" opacity="0.95"/>
+  <polygon points="48,172  158,84 268,172"  fill="#091520" opacity="0.9"/>
+  <polygon points="376,172 442,120 508,172" fill="#060e1d" opacity="0.85"/>
+  <polygon points="685,172 768,90 851,172"  fill="#091520" opacity="0.9"/>
+  <polygon points="738,172 822,106 906,172" fill="#060e1d" opacity="0.85"/>
+
+  <!-- ═══ GROUND (surface y=175) ═══ -->
+  <rect x="0" y="175" width="900" height="25" fill="#0c1e3d"/>
+  <rect x="0" y="175" width="900" height="5"  fill="#1a3575"/>
+  <rect x="0" y="175" width="900" height="2"  fill="#2550a0"/>
+  <!-- tile dividers every 30px -->
+  <rect x="30"  y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="60"  y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="90"  y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="120" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="150" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="180" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="210" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="240" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="270" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="300" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="330" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="360" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="390" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="420" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="450" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="480" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="510" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="540" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="570" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="600" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="630" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="660" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="690" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="720" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="750" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="780" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="810" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="840" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+  <rect x="870" y="175" width="1" height="9" fill="#081428" opacity="0.9"/>
+
+  <!-- ═══ PLATFORM 1  x=200–370, surface y=148 ═══ -->
+  <rect x="200" y="152" width="170" height="10" fill="#0c1e3d"/>
+  <rect x="200" y="148" width="170" height="5"  fill="#1a3575"/>
+  <rect x="200" y="148" width="170" height="2"  fill="#2550a0"/>
+  <!-- bottom shadow -->
+  <rect x="203" y="158" width="167" height="2" fill="#040c1a" opacity="0.7"/>
+  <!-- tile marks -->
+  <rect x="230" y="148" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="260" y="148" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="290" y="148" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="320" y="148" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="350" y="148" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <!-- left pillar -->
+  <rect x="200" y="160" width="6" height="15" fill="#0e254a"/>
+  <rect x="364" y="160" width="6" height="15" fill="#0e254a"/>
+
+  <!-- ═══ PLATFORM 2  x=440–670, surface y=115 ═══ -->
+  <rect x="440" y="119" width="230" height="10" fill="#0c1e3d"/>
+  <rect x="440" y="115" width="230" height="5"  fill="#1a3575"/>
+  <rect x="440" y="115" width="230" height="2"  fill="#2550a0"/>
+  <rect x="443" y="125" width="227" height="2" fill="#040c1a" opacity="0.7"/>
+  <!-- tile marks -->
+  <rect x="470" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="500" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="530" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="560" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="590" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="620" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <rect x="650" y="115" width="1" height="8" fill="#081428" opacity="0.9"/>
+  <!-- pillars -->
+  <rect x="440" y="127" width="6" height="48" fill="#0e254a"/>
+  <rect x="664" y="127" width="6" height="48" fill="#0e254a"/>
+
+  <!-- ═══ ENEMY 1  — blue slime, paces Platform 1 ═══ -->
+  <g class="e1">
+    <!-- body -->
+    <rect x="0" y="0" width="20" height="12" rx="4" fill="#1d4ed8"/>
+    <rect x="0" y="0" width="20" height="3"  rx="2" fill="#2563eb" opacity="0.5"/>
+    <!-- eyes -->
+    <rect x="2" y="3" width="6" height="6" rx="1" fill="white"/>
+    <rect x="12" y="3" width="6" height="6" rx="1" fill="white"/>
+    <!-- pupils -->
+    <rect x="3" y="4" width="3" height="4" fill="#1e3a8a"/>
+    <rect x="13" y="4" width="3" height="4" fill="#1e3a8a"/>
+    <!-- shine -->
+    <rect x="4" y="4" width="1" height="1" fill="white" opacity="0.8"/>
+    <rect x="14" y="4" width="1" height="1" fill="white" opacity="0.8"/>
+    <!-- antenna -->
+    <rect x="8" y="-6" width="3" height="6" fill="#3b82f6"/>
+    <rect x="6" y="-9" width="7" height="4" rx="2" fill="#60a5fa"/>
+    <rect x="8" y="-8" width="3" height="2" fill="white" opacity="0.5"/>
+  </g>
+
+  <!-- ═══ ENEMY 2  — purple slime, paces Platform 2 ═══ -->
+  <g class="e2">
+    <rect x="0" y="0" width="20" height="12" rx="4" fill="#4c1d95"/>
+    <rect x="0" y="0" width="20" height="3"  rx="2" fill="#6d28d9" opacity="0.5"/>
+    <rect x="2" y="3" width="6" height="6" rx="1" fill="white"/>
+    <rect x="12" y="3" width="6" height="6" rx="1" fill="white"/>
+    <rect x="3" y="4" width="3" height="4" fill="#2e1065"/>
+    <rect x="13" y="4" width="3" height="4" fill="#2e1065"/>
+    <rect x="4" y="4" width="1" height="1" fill="white" opacity="0.8"/>
+    <rect x="14" y="4" width="1" height="1" fill="white" opacity="0.8"/>
+    <rect x="8" y="-6" width="3" height="6" fill="#7c3aed"/>
+    <rect x="6" y="-9" width="7" height="4" rx="2" fill="#a78bfa"/>
+    <rect x="8" y="-8" width="3" height="2" fill="white" opacity="0.5"/>
+  </g>
+
+  <!-- ═══ COINS above Platform 2 ═══ -->
+  <g transform="translate(546,97)">
+    <g class="coins">
+      <!-- coin 1 -->
+      <rect x="0"  y="0" width="9" height="9" rx="2" fill="#93c5fd" stroke="#3b82f6" stroke-width="1.5"/>
+      <rect x="3"  y="2" width="3" height="5" fill="#1d4ed8" opacity="0.5"/>
+      <!-- coin 2 -->
+      <rect x="16" y="0" width="9" height="9" rx="2" fill="#93c5fd" stroke="#3b82f6" stroke-width="1.5"/>
+      <rect x="19" y="2" width="3" height="5" fill="#1d4ed8" opacity="0.5"/>
+      <!-- coin 3 -->
+      <rect x="32" y="0" width="9" height="9" rx="2" fill="#93c5fd" stroke="#3b82f6" stroke-width="1.5"/>
+      <rect x="35" y="2" width="3" height="5" fill="#1d4ed8" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- ═══ GROUND PIXEL PROPS ═══ -->
+  <!-- rock at x=145 -->
+  <rect x="145" y="169" width="14" height="8" rx="1" fill="#0f2855"/>
+  <rect x="147" y="167" width="10" height="4" rx="1" fill="#152f68"/>
+  <!-- rock at x=730 -->
+  <rect x="730" y="170" width="11" height="7" rx="1" fill="#0f2855"/>
+  <rect x="732" y="168" width="7" height="3" rx="1" fill="#152f68"/>
+  <!-- small gem at x=810 -->
+  <polygon points="815,169 819,162 823,169" fill="#3b82f6" opacity="0.8"/>
+  <polygon points="815,169 819,166 823,169" fill="#93c5fd" opacity="0.6"/>
+
+  <!-- ═══ GOAL FLAG at x=870 ═══ -->
+  <!-- pole -->
+  <rect x="868" y="143" width="3" height="32" fill="#1e3a8a"/>
+  <!-- flag shape -->
+  <g class="flag" style="transform-origin: 871px 143px;">
+    <polygon points="871,143 898,152 871,161" fill="#1d4ed8"/>
+    <polygon points="871,143 898,152 871,161" fill="#93c5fd" opacity="0.35"/>
+  </g>
+  <!-- pole base -->
+  <rect x="863" y="173" width="14" height="4" rx="1" fill="#1a3575"/>
+
+  <!-- ═══ PLAYER CHARACTER (astronaut-bot, 16w × 25h) ═══ -->
+  <g class="char">
+    <!-- HELMET -->
+    <rect x="1"  y="0"  width="15" height="9"  rx="2" fill="#60a5fa"/>
+    <rect x="3"  y="0"  width="10" height="2"  fill="#93c5fd"/>
+    <!-- visor -->
+    <rect x="3"  y="3"  width="11" height="4"  fill="#1e3a8a"/>
+    <!-- visor glare -->
+    <rect x="4"  y="3"  width="4"  height="2"  fill="#bfdbfe" opacity="0.55"/>
+    <!-- eyes inside visor -->
+    <rect x="4"  y="5"  width="3"  height="2"  fill="#93c5fd"/>
+    <rect x="10" y="5"  width="3"  height="2"  fill="#93c5fd"/>
+    <!-- BODY -->
+    <rect x="2"  y="9"  width="13" height="8"  fill="#1d4ed8"/>
+    <!-- chest panel -->
+    <rect x="5"  y="11" width="7"  height="4"  fill="#1e3a8a"/>
+    <rect x="6"  y="12" width="1"  height="2"  fill="#3b82f6"/>
+    <rect x="9"  y="12" width="1"  height="2"  fill="#3b82f6"/>
+    <rect x="7"  y="11" width="3"  height="1"  fill="#3b82f6" opacity="0.4"/>
+    <!-- LEFT ARM -->
+    <rect x="0"  y="10" width="3"  height="5"  fill="#1d4ed8"/>
+    <rect x="0"  y="14" width="3"  height="2"  fill="#93c5fd"/>
+    <!-- RIGHT ARM + TOOL -->
+    <rect x="14" y="10" width="3"  height="5"  fill="#1d4ed8"/>
+    <rect x="14" y="14" width="4"  height="2"  fill="#60a5fa"/>
+    <!-- LEFT LEG (stepped walk animation) -->
+    <g class="ll">
+      <rect x="2"  y="17" width="5"  height="6"  fill="#1e3a8a"/>
+      <rect x="1"  y="21" width="6"  height="3"  fill="#1e40af"/>
+    </g>
+    <!-- RIGHT LEG -->
+    <g class="rl">
+      <rect x="10" y="17" width="5"  height="6"  fill="#1e3a8a"/>
+      <rect x="9"  y="21" width="6"  height="3"  fill="#1e40af"/>
+    </g>
+  </g>
+
+  <!-- ═══ DARK OVERLAY behind text area for legibility ═══ -->
+  <rect x="0" y="0" width="900" height="92" fill="#000814" opacity="0.42"/>
+
+  <!-- ═══ CORNER BRACKETS ═══ -->
+  <path class="br1" d="M18,16 L18,40 M18,16 L42,16" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+  <path class="br2" d="M882,16 L882,40 M882,16 L858,16" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+
+  <!-- ═══ NAME TEXT ═══ -->
+  <text class="nt"
+    x="450" y="55"
+    text-anchor="middle"
+    font-family="'Courier New',Courier,monospace"
+    font-size="40" font-weight="bold"
+    fill="#ffffff"
+    filter="url(#gw)"
+    letter-spacing="8">DHRUV</text>
+
+  <!-- Animated underline -->
+  <rect x="450" y="62" width="0" height="2" fill="#3b82f6">
+    <animate attributeName="width" from="0" to="248" dur="0.7s" begin="0.9s" fill="freeze"/>
+    <animate attributeName="x"     from="450" to="326" dur="0.7s" begin="0.9s" fill="freeze"/>
   </rect>
 
-  <!-- Corner brackets — TL -->
-  <path d="M 20 20 L 20 50 M 20 20 L 50 20" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <!-- TR -->
-  <path d="M 880 20 L 880 50 M 880 20 L 850 20" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
-  </path>
-  <!-- BL -->
-  <path d="M 20 160 L 20 130 M 20 160 L 50 160" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" begin="1s" repeatCount="indefinite"/>
-  </path>
-  <!-- BR -->
-  <path d="M 880 160 L 880 130 M 880 160 L 850 160" stroke="#00ff41" stroke-width="2" fill="none" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" begin="1.5s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- Floating dots — robot/circuit aesthetic -->
-  <circle cx="100" cy="90" r="2" fill="#00ff41" opacity="0.6">
-    <animate attributeName="cy" values="90;80;90" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="800" cy="90" r="2" fill="#00ff41" opacity="0.6">
-    <animate attributeName="cy" values="90;100;90" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="150" cy="50" r="1.5" fill="#00ff41" opacity="0.4">
-    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="750" cy="130" r="1.5" fill="#00ff41" opacity="0.4">
-    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.2s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Circuit lines -->
-  <path d="M 80 90 L 120 90 L 120 60 L 160 60" stroke="#00ff41" stroke-width="0.8" fill="none" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
-  </path>
-  <path d="M 820 90 L 780 90 L 780 120 L 740 120" stroke="#00ff41" stroke-width="0.8" fill="none" opacity="0.3">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- Main name — with letter-by-letter reveal feel via opacity -->
-  <text x="450" y="85" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="#ffffff" filter="url(#glow2)" letter-spacing="8">
-    DHRUV
-    <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+  <!-- ═══ ROLE TEXT ═══ -->
+  <text class="rt"
+    x="450" y="80"
+    text-anchor="middle"
+    font-family="'Courier New',Courier,monospace"
+    font-size="11" fill="#93c5fd" letter-spacing="2.5">
+    SWE  ·  AI SYSTEMS  ·  ROBOTICS  ·  MIT ECOSYSTEM
   </text>
 
-  <!-- Green accent line under name -->
-  <rect x="320" y="95" width="0" height="2" fill="#00ff41" filter="url(#glow)">
-    <animate attributeName="width" from="0" to="260" dur="0.8s" begin="0.8s" fill="freeze"/>
-    <animate attributeName="x" from="450" to="320" dur="0.8s" begin="0.8s" fill="freeze"/>
-  </rect>
+  <!-- ═══ STATUS ═══ -->
+  <circle class="pb" cx="295" cy="93" r="4" fill="#3b82f6" filter="url(#gws)"/>
+  <text class="dt"
+    x="307" y="97"
+    font-family="'Courier New',Courier,monospace"
+    font-size="10" fill="#60a5fa">OPEN TO OPPORTUNITIES</text>
 
-  <!-- Role text -->
-  <text x="450" y="125" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#00ff41" letter-spacing="3" opacity="0">
-    SWE · AI SYSTEMS · ROBOTICS RESEARCHER
-    <animate attributeName="opacity" values="0;0.9" dur="0.5s" begin="1.2s" fill="freeze"/>
-  </text>
-
-  <!-- Status indicator -->
-  <circle cx="290" cy="148" r="4" fill="#00ff41" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="302" y="152" font-family="'Courier New', monospace" font-size="11" fill="#00ff41" opacity="0">
-    OPEN TO OPPORTUNITIES
-    <animate attributeName="opacity" values="0;0.8" dur="0.5s" begin="1.6s" fill="freeze"/>
-  </text>
-
-  <!-- Duckietown badge top right -->
-  <rect x="720" y="20" width="160" height="24" rx="4" fill="#00ff41" opacity="0.1" stroke="#00ff41" stroke-width="0.5"/>
-  <text x="800" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ff41" opacity="0">
-    @ DUCKIETOWN · MIT ECOSYSTEM
-    <animate attributeName="opacity" values="0;0.9" dur="0.5s" begin="1.4s" fill="freeze"/>
-  </text>
+  <!-- ═══ DUCKIETOWN BADGE (top-right) ═══ -->
+  <rect x="715" y="16" width="167" height="22" rx="3" fill="#1e3a8a" opacity="0.25" stroke="#3b82f6" stroke-width="0.6"/>
+  <text class="rt"
+    x="798" y="31"
+    text-anchor="middle"
+    font-family="'Courier New',Courier,monospace"
+    font-size="9" fill="#93c5fd" letter-spacing="0.5">@ DUCKIETOWN · MIT ECOSYSTEM</text>
 </svg>
 
 <br/>
 
 <!-- BADGES -->
-![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0a0a0a)
-[![LinkedIn](https://img.shields.io/badge/5K%2B_FOLLOWERS-LinkedIn-00ff41?style=for-the-badge&logo=linkedin&logoColor=0a0a0a&labelColor=0a0a0a)](https://www.linkedin.com/in/dhruv-01352a279/)
-[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-00ff41?style=for-the-badge&logo=github&logoColor=0a0a0a&labelColor=0a0a0a)](https://github.com/Dhruvtara108)
-[![Email](https://img.shields.io/badge/EMAIL-Contact-00ff41?style=for-the-badge&logo=gmail&logoColor=0a0a0a&labelColor=0a0a0a)](mailto:mishradhruv257@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Dhruvtara108&color=1d4ed8&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0f172a)
+[![LinkedIn](https://img.shields.io/badge/5K%2B_FOLLOWERS-LinkedIn-1d4ed8?style=for-the-badge&logo=linkedin&logoColor=93c5fd&labelColor=0f172a)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/GITHUB-Dhruvtara108-1d4ed8?style=for-the-badge&logo=github&logoColor=93c5fd&labelColor=0f172a)](https://github.com/Dhruvtara108)
+[![Email](https://img.shields.io/badge/EMAIL-Contact-1d4ed8?style=for-the-badge&logo=gmail&logoColor=93c5fd&labelColor=0f172a)](mailto:mishradhruv257@gmail.com)
 
 </div>
 
@@ -368,30 +589,30 @@ class Dhruv:
 <td align="center" width="180">
 
 ### 💻 Languages
-![Python](https://img.shields.io/badge/Python-0a0a0a?style=for-the-badge&logo=python&logoColor=00ff41)
-![C++](https://img.shields.io/badge/C++-0a0a0a?style=for-the-badge&logo=cplusplus&logoColor=00ff41)
-![JavaScript](https://img.shields.io/badge/JS-0a0a0a?style=for-the-badge&logo=javascript&logoColor=00ff41)
-![C#](https://img.shields.io/badge/C%23-0a0a0a?style=for-the-badge&logo=csharp&logoColor=00ff41)
-![C](https://img.shields.io/badge/C-0a0a0a?style=for-the-badge&logo=c&logoColor=00ff41)
-![Dart](https://img.shields.io/badge/Dart-0a0a0a?style=for-the-badge&logo=dart&logoColor=00ff41)
+![Python](https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=93c5fd)
+![C++](https://img.shields.io/badge/C++-0f172a?style=for-the-badge&logo=cplusplus&logoColor=93c5fd)
+![JavaScript](https://img.shields.io/badge/JS-0f172a?style=for-the-badge&logo=javascript&logoColor=93c5fd)
+![C#](https://img.shields.io/badge/C%23-0f172a?style=for-the-badge&logo=csharp&logoColor=93c5fd)
+![C](https://img.shields.io/badge/C-0f172a?style=for-the-badge&logo=c&logoColor=93c5fd)
+![Dart](https://img.shields.io/badge/Dart-0f172a?style=for-the-badge&logo=dart&logoColor=93c5fd)
 
 </td>
 <td align="center" width="180">
 
 ### ⚙️ Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0a?style=for-the-badge&logo=fastapi&logoColor=00ff41)
-![Node.js](https://img.shields.io/badge/Node.js-0a0a0a?style=for-the-badge&logo=nodedotjs&logoColor=00ff41)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-0a0a0a?style=for-the-badge&logo=dotnet&logoColor=00ff41)
-![REST](https://img.shields.io/badge/REST_APIs-0a0a0a?style=for-the-badge&logo=fastapi&logoColor=00ff41)
+![FastAPI](https://img.shields.io/badge/FastAPI-0f172a?style=for-the-badge&logo=fastapi&logoColor=93c5fd)
+![Node.js](https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge&logo=nodedotjs&logoColor=93c5fd)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-0f172a?style=for-the-badge&logo=dotnet&logoColor=93c5fd)
+![REST](https://img.shields.io/badge/REST_APIs-0f172a?style=for-the-badge&logo=fastapi&logoColor=93c5fd)
 
 </td>
 <td align="center" width="180">
 
 ### 🌐 Frontend
-![React](https://img.shields.io/badge/React_19-0a0a0a?style=for-the-badge&logo=react&logoColor=00ff41)
-![Flutter](https://img.shields.io/badge/Flutter-0a0a0a?style=for-the-badge&logo=flutter&logoColor=00ff41)
-![HTML5](https://img.shields.io/badge/HTML5-0a0a0a?style=for-the-badge&logo=html5&logoColor=00ff41)
-![Shadcn](https://img.shields.io/badge/Shadcn_UI-0a0a0a?style=for-the-badge&logo=shadcnui&logoColor=00ff41)
+![React](https://img.shields.io/badge/React_19-0f172a?style=for-the-badge&logo=react&logoColor=93c5fd)
+![Flutter](https://img.shields.io/badge/Flutter-0f172a?style=for-the-badge&logo=flutter&logoColor=93c5fd)
+![HTML5](https://img.shields.io/badge/HTML5-0f172a?style=for-the-badge&logo=html5&logoColor=93c5fd)
+![Shadcn](https://img.shields.io/badge/Shadcn_UI-0f172a?style=for-the-badge&logo=shadcnui&logoColor=93c5fd)
 
 </td>
 </tr>
@@ -399,31 +620,31 @@ class Dhruv:
 <td align="center" width="180">
 
 ### 🤖 AI & CV
-![YOLOv8](https://img.shields.io/badge/YOLOv8-0a0a0a?style=for-the-badge&logo=python&logoColor=00ff41)
-![OpenCV](https://img.shields.io/badge/OpenCV-0a0a0a?style=for-the-badge&logo=opencv&logoColor=00ff41)
-![TFLite](https://img.shields.io/badge/TF_Lite-0a0a0a?style=for-the-badge&logo=tensorflow&logoColor=00ff41)
-![PyTorch](https://img.shields.io/badge/PyTorch-0a0a0a?style=for-the-badge&logo=pytorch&logoColor=00ff41)
-![UiPath](https://img.shields.io/badge/UiPath-0a0a0a?style=for-the-badge&logo=uipath&logoColor=00ff41)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-0f172a?style=for-the-badge&logo=python&logoColor=93c5fd)
+![OpenCV](https://img.shields.io/badge/OpenCV-0f172a?style=for-the-badge&logo=opencv&logoColor=93c5fd)
+![TFLite](https://img.shields.io/badge/TF_Lite-0f172a?style=for-the-badge&logo=tensorflow&logoColor=93c5fd)
+![PyTorch](https://img.shields.io/badge/PyTorch-0f172a?style=for-the-badge&logo=pytorch&logoColor=93c5fd)
+![UiPath](https://img.shields.io/badge/UiPath-0f172a?style=for-the-badge&logo=uipath&logoColor=93c5fd)
 
 </td>
 <td align="center" width="180">
 
 ### 🦾 Robotics
-![ROS](https://img.shields.io/badge/ROS-0a0a0a?style=for-the-badge&logo=ros&logoColor=00ff41)
-![Arduino](https://img.shields.io/badge/Arduino-0a0a0a?style=for-the-badge&logo=arduino&logoColor=00ff41)
-![RPi](https://img.shields.io/badge/Raspberry_Pi-0a0a0a?style=for-the-badge&logo=raspberrypi&logoColor=00ff41)
-![Fusion360](https://img.shields.io/badge/Fusion_360-0a0a0a?style=for-the-badge&logo=autodesk&logoColor=00ff41)
-![Docker](https://img.shields.io/badge/Docker-0a0a0a?style=for-the-badge&logo=docker&logoColor=00ff41)
+![ROS](https://img.shields.io/badge/ROS-0f172a?style=for-the-badge&logo=ros&logoColor=93c5fd)
+![Arduino](https://img.shields.io/badge/Arduino-0f172a?style=for-the-badge&logo=arduino&logoColor=93c5fd)
+![RPi](https://img.shields.io/badge/Raspberry_Pi-0f172a?style=for-the-badge&logo=raspberrypi&logoColor=93c5fd)
+![Fusion360](https://img.shields.io/badge/Fusion_360-0f172a?style=for-the-badge&logo=autodesk&logoColor=93c5fd)
+![Docker](https://img.shields.io/badge/Docker-0f172a?style=for-the-badge&logo=docker&logoColor=93c5fd)
 
 </td>
 <td align="center" width="180">
 
 ### ☁️ Cloud & Data
-![GCP](https://img.shields.io/badge/GCP-0a0a0a?style=for-the-badge&logo=googlecloud&logoColor=00ff41)
-![BigQuery](https://img.shields.io/badge/BigQuery-0a0a0a?style=for-the-badge&logo=googlebigquery&logoColor=00ff41)
-![MongoDB](https://img.shields.io/badge/MongoDB-0a0a0a?style=for-the-badge&logo=mongodb&logoColor=00ff41)
-![SQL](https://img.shields.io/badge/SQL_Server-0a0a0a?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ff41)
-![Linux](https://img.shields.io/badge/Linux-0a0a0a?style=for-the-badge&logo=linux&logoColor=00ff41)
+![GCP](https://img.shields.io/badge/GCP-0f172a?style=for-the-badge&logo=googlecloud&logoColor=93c5fd)
+![BigQuery](https://img.shields.io/badge/BigQuery-0f172a?style=for-the-badge&logo=googlebigquery&logoColor=93c5fd)
+![MongoDB](https://img.shields.io/badge/MongoDB-0f172a?style=for-the-badge&logo=mongodb&logoColor=93c5fd)
+![SQL](https://img.shields.io/badge/SQL_Server-0f172a?style=for-the-badge&logo=microsoftsqlserver&logoColor=93c5fd)
+![Linux](https://img.shields.io/badge/Linux-0f172a?style=for-the-badge&logo=linux&logoColor=93c5fd)
 
 </td>
 </tr>
@@ -445,9 +666,9 @@ class Dhruv:
 
 ## ✦ CONNECT ✦
 
-[![Email](https://img.shields.io/badge/mishradhruv257%40gmail.com-0a0a0a?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:mishradhruv257@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/5K%2B_Followers_·_LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/dhruv-01352a279/)
-[![GitHub](https://img.shields.io/badge/Dhruvtara108_·_GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Dhruvtara108)
+[![Email](https://img.shields.io/badge/mishradhruv257%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=93c5fd)](mailto:mishradhruv257@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/5K%2B_Followers_·_LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=93c5fd)](https://www.linkedin.com/in/dhruv-01352a279/)
+[![GitHub](https://img.shields.io/badge/Dhruvtara108_·_GitHub-0f172a?style=for-the-badge&logo=github&logoColor=93c5fd)](https://github.com/Dhruvtara108)
 
 <br/>
 
